@@ -13,9 +13,7 @@
 
 - **task** :
   - gives a list of tasks that MUST be accomplished by you
-  - the tasks are not set-in-stone you may alter them if you wish to, but only _reasonably_
   - also tells you what are the must-have features in your solution
-
   - tasks marked with [<ins>**extra**</ins>] are not necessary, consider them as bonus problems
 
 - **techstack instructions**:
@@ -32,6 +30,7 @@
   - the idea is to document mainly 2 things:
 
     - key problem solving points: that provide a high level overview of how you solved that problem
+      - eg: for the DB problem, what tables you created / altered, how does that accomplish the tasks (if it's not obvious)
     - instructions: you must include all instructions (including code) that will allow us to run and review your solution
 
 ## 0. Setup
@@ -115,22 +114,22 @@ docker-compose -f docker-compose.initial.yml up --build -d
   - you _may_ need to create more tables, alter existing tables to solve the exercise
   - please try to use the names "user" and "home" for "user" and "home" tables, so it's easier for us to understand
 
-- create a **SQL script** `99_final_db_dump.sql` containing all the changes to DB
+- create a **SQL script** `99_final_db_dump.sql` containing all the changes made by you to the DB
 - put it inside the `sql` directory under the root directory
 
 - make sure that:
-  - the SQL script you have created, takes the DB from its initial state to the "solved" state when it's executed
+  - the SQL script you have created, takes the DB from its initial state (as it was when you started the docker container for the first time) to the "solved" state, when it's executed
 
 - **techstack instructions**
 
-  - you can use whatever GUI / CLI you want to interact with database
-  - but all the changes you make should be using SQL / MySQL dialect of SQL
-  - so you must **NOT** use Entity first development, where you write your ORM entities and generate SQL migration
-  - here we want to use DB first model, and simply modify the DB through SQL
+  - you can use whatever GUI / CLI you want, to interact with database
+  - but all the changes you make should be using SQL / MySQL dialect of SQL and should be in the SQL script that you provide
+  - so you must **NOT** use Entity first development, where you write your ORM entities and generate SQL migration scripts
+  - instead you directly write SQL script, that makes all the changes you want to the DB
 
 ### solution
 
-> put your solution here
+> explain briefly your solution for this problem here
 
 ## 2. React SPA
 
@@ -140,8 +139,8 @@ docker-compose -f docker-compose.initial.yml up --build -d
 
 - we want to see:
   - for each user what homes they are interested in
-  - for each home we also want a way to see what users are interested in it
-- also we want to change what users are associated with a given home
+  - for each home we also want a way to see what different users are interested in it
+- also we want to change / update the users that are associated with a given home
 
 ### task
 
@@ -177,15 +176,15 @@ docker-compose -f docker-compose.initial.yml up --build -d
     - checkboxes are controlled
     - there is atleast 1 user related to a home
 
-      - if the modal has no users selected, it should show an error and disable `Save`
+      - if the modal has no users selected, it should show an error and disable `Save` button
 
 - **handle data-fetching properly**
 
   - to create the above components / pages, you'll fetch data from [backend APIs](#3-backend-api-development-on-node)
 
-  - make sure you're handling data-fetching properly:
+  - make sure you're handling data-fetching properly by _preferrably_ using a data-fetching-library:
     - show a loading spinner/skeleton while an API request is progress
-    - gracefully handle if the API call errors out
+    - gracefully handle errors if the API calls error out
     - [<ins>**extra**</ins>] cache API responses, to improve performance 
 
   - as discussed below it's preferred to use a data fetching library to handle these problems properly
@@ -217,11 +216,11 @@ docker-compose -f docker-compose.initial.yml up --build -d
       - remember to keep it simple and readable
 
 > [!IMPORTANT]
-> even if you can do it without Redux, you still must use Redux for the solution, (remember the idea is to showcase the skills)
+> even if you can do state-management without Redux, you still must use Redux for the solution, (remember the idea is to showcase the skills)
 
 ### solution
 
-> put your solution here
+> explain briefly your solution for this problem here
 
 ## 3. Backend API development on Node
 
@@ -251,7 +250,7 @@ docker-compose -f docker-compose.initial.yml up --build -d
   - make sure:
 
     - you use suitable HTTP methods for the REST APIs
-    - should only user JSON as the interface
+    - should only use JSON as the interface
     - if possible, sanitize the data sent in the request
     - the `/home/update-users` API is idempotent
   
@@ -282,7 +281,7 @@ docker-compose -f docker-compose.initial.yml up --build -d
 
 ### solution
 
-> put your solution here
+> explain briefly your solution for this problem here
 
 ## Submission Guidelines
 
@@ -292,13 +291,15 @@ docker-compose -f docker-compose.initial.yml up --build -d
 
 - this is the most important part of the submission, without a proper README no submission will be considered
 
-- you must edit this README file in your fork of the repo, and for each problem section, document your solution properly
+- you must edit this README file in your fork of the repo, and for each problem section, document your solution properly in its **solution** section
 
 ### frontend & backend
 
 - all frontend / backend code should go entirely in the `./frontend` / `./backend` directories
 - we are fine with testing your solution in either `dev` or `production` mode, just make sure the instructions are properly documented
-- ensure to **commit the .env files** for both backend & frontend
+
+> [!CAUTION]
+> make sure to **commit the .env files** for both backend & frontend, if they are needed to run your solutions
 
 ### database
 
@@ -325,7 +326,9 @@ docker-compose -f docker-compose.initial.yml down
  docker-compose -f docker-compose.final.yml up --build -d
 ```
 
-- this is the new db container with your SQL script applied, now test your app
+- this is the new db container with your SQL script applied, now test your app, it should work exactly the same with this new replica database, this is how we will be runnning your app
 
-- your app should work fine as they are basically the same DB with same credentials and ports, otherwise something is wrong in the SQL script
+### submit the fork url
+
+- when you've committed everything needed to your github fork, please share the url with us, so we can review your submission
   
