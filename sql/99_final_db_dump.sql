@@ -1,4 +1,7 @@
-USE home_db;
+DROP TABLE IF EXISTS `user_home_interest`;
+DROP TABLE IF EXISTS `home`;
+DROP TABLE IF EXISTS `user`;
+
 -- Create the user table
 CREATE TABLE IF NOT EXISTS `user` (
     `id` INT AUTO_INCREMENT PRIMARY KEY,
