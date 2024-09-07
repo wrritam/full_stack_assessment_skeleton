@@ -37,10 +37,12 @@ INSERT INTO `user` (username, email)
 SELECT DISTINCT username, email
 FROM user_home;
 
+-- Populate the home table
 INSERT INTO `home` (street_address, state, zip, sqft, beds, baths, list_price)
 SELECT DISTINCT street_address, state, zip, sqft, beds, baths, list_price
 FROM user_home;
 
+-- Populate the user_home_interest table
 INSERT INTO user_home_interest (user_id, home_id)
 SELECT u.id, h.id
 FROM user_home uh
