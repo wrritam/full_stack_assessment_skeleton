@@ -285,6 +285,7 @@ Thank you for your time and consideration.
        `npm run build`
     - Run the developement Server
        `npm run dev`
+   - Deployed live link on vercel: https://full-stack-assessment-skeleton.vercel.app/
 
 
 ## 3. Backend API development on Node
