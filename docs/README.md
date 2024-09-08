@@ -243,8 +243,11 @@ docker-compose -f docker-compose.initial.yml up --build -d
 > even if you can do state-management without Redux, you still must use Redux for the solution, (remember the idea is to showcase the skills)
 
 ### solution
+  - Used tailwind CSS for styling, no 3rd party UI library/ framework.
+  - State management using props and states only, asynchronous states via React query.
+  - Utilised minimal usage of useState hook.
+  - Implemented pagination for `homes for user page` through frontend.
 
-> explain briefly your solution for this problem here
 
 ## 3. Backend API development on Node
 
