@@ -371,6 +371,8 @@ Thank you for your time and consideration.
     ![usersrelatedtohomeid](images/screenshots/usersrelatedtohomeid.png)
   - Coded the logic for the `/home/update-users/:homeId` route to update the users related to the homeId mentioned in the parameter.
     ![updateuserbyhomeid](images/screenshots/updateuserbyhomeid.png)
+  - Deployed backend live link on render : https://full-stack-assessment-skeleton.onrender.com
+    - Note: The backend link is deployed under render's free tier so it could take some time to cold start the server. Render free instance will spin down with inactivity, which can delay requests by 50 seconds or more.
 
 ## Submission Guidelines
 
