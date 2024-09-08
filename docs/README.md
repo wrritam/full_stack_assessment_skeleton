@@ -135,7 +135,19 @@ docker-compose -f docker-compose.initial.yml up --build -d
 
 ### solution
 
-> explain briefly your solution for this problem here
+  - After running the docker-compose initial command, I created a file named `99_final_db_dump.sql` inside the `SQL` directory under the root directory.
+  - Then I created a `user` table containing `id`, `username` and `email` columns making `id` the primary key.
+    ![create_user](images/screenshots/createuser.png)
+  - After that, I created a `home` table containing `id`, `street_adress`, `state`, `zip`, `sqft`, `beds`, `baths` and `list_price` columns making `id` the primary key.
+    ![create_home](images/screenshots/createhome.png)
+  - Again, similarly, I created a `userhome` table to represent the many-to-many relationship between `user` and `home` tables. This `userhome` table contains 3 columns `user_Id` reference to the `id` of the `user` table, `home_Id` reference to the `id` of the `home` table and the usual `id` column as the primary key.
+    ![create_userhome](images/screenshots/createuserhome.png)
+  - After creating, I populated the tables with the data from the `user_home` table that I got after running the docker-compose initial command.
+    
+    ![populate_user](images/screenshots/populatinguser.png)
+    ![populate_home](images/screenshots/populatinghome.png)
+    ![populate_userhome](images/screenshots/populatinguserhome.png)
+
 
 ## 2. React SPA
 
