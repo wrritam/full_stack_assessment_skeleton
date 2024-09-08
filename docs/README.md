@@ -271,6 +271,16 @@ Thank you for your time and consideration.
   - State management using props and states only, asynchronous states via React query.
   - Utilised minimal usage of useState hook.
   - Implemented pagination for `homes for user page` through frontend.
+  - Set Up :
+    
+    - Fork the repo, clone it and enter into the directory.
+    - `cd backend`
+    - Install all the Dependencies:
+       `npm install`
+    - Build the app
+       `npm run build`
+    - Run the developement Server
+       `npm run dev`
 
 
 ## 3. Backend API development on Node
