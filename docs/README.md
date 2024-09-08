@@ -274,7 +274,11 @@ Thank you for your time and consideration.
   - Set Up :
     
     - Fork the repo, clone it and enter into the directory.
-    - `cd backend`
+    - `cd frontend`
+    - create file under frontend directory named `.env.local` and paste the following inside the file :
+      
+      VITE_BACKEND_URL = "https://full-stack-assessment-skeleton.onrender.com"
+
     - Install all the Dependencies:
        `npm install`
     - Build the app
