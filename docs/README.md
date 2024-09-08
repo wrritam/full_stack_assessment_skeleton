@@ -350,6 +350,18 @@ Thank you for your time and consideration.
     - we do NOT want raw SQL, if none of above works, you can use any ORM you know, but please mention and link to it in the README
 
 ### solution
+  - Set Up:
+    - Fork the repo, clone it and enter into the directory.
+      
+    - create a file named `.env.local` and paste the following inside the file :
+      
+      DATABASE_URL="postgresql://homeLLC_owner:QRB2fWKVyYS0@ep-noisy-glitter-a147ssra.ap-southeast-1.aws.neon.tech/homeLLC?sslmode=require"
+
+    - Install all the Dependencies:
+       `npm install`
+      
+    - Run the backend Server
+       `npm run start`
 
   - Coded the logic for the `/user/find-all` route to get all users from the DB.
     ![findallusers](images/screenshots/findallusers.png)
