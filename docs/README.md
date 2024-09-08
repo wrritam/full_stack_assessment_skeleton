@@ -310,7 +310,14 @@ docker-compose -f docker-compose.initial.yml up --build -d
 
 ### solution
 
-> explain briefly your solution for this problem here
+  - Coded the logic for the `/user/find-all` route to get all users from the DB.
+    ![findallusers](images/screenshots/findallusers.png)
+  - Coded the logic for the `/home/find-by-user/:userId` route to get all the homes under the userId mentioned in the parameter.
+    ![homesunderuserid](images/screenshots/homesunderuserid.png)
+  - Coded the logic for the `/user/find-by-home/:homeId` route to get all the users related to the homeId mentioned in the parameter.
+    ![usersrelatedtohomeid](images/screenshots/usersrelatedtohomeid.png)
+  - Coded the logic for the `/home/update-users/:homeId` route to update the users related to the homeId mentioned in the parameter.
+    ![updateuserbyhomeid](images/screenshots/updateuserbyhomeid.png)
 
 ## Submission Guidelines
 
