@@ -1,0 +1,7726 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "email": "user1@example.org"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "email": "user2@example.org"
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "email": "user3@example.org"
+    },
+    {
+      "id": 4,
+      "username": "user4",
+      "email": "user4@example.org"
+    },
+    {
+      "id": 5,
+      "username": "user5",
+      "email": "user5@example.org"
+    },
+    {
+      "id": 6,
+      "username": "user6",
+      "email": "user6@example.org"
+    },
+    {
+      "id": 7,
+      "username": "user7",
+      "email": "user7@example.org"
+    },
+    {
+      "id": 8,
+      "username": "user8",
+      "email": "user8@example.org"
+    },
+    {
+      "id": 9,
+      "username": "user9",
+      "email": "user9@example.org"
+    },
+    {
+      "id": 10,
+      "username": "user10",
+      "email": "user10@example.org"
+    }
+  ],
+  "homes": [
+    {
+      "id": 1,
+      "street_address": "4720 Maple Blvd",
+      "state": "NC",
+      "zip": "14284",
+      "sqft": 1994.82,
+      "beds": 1,
+      "baths": 1.6,
+      "list_price": 1995947.43
+    },
+    {
+      "id": 2,
+      "street_address": "1890 Cedar St",
+      "state": "MI",
+      "zip": "76759",
+      "sqft": 4177.6,
+      "beds": 6,
+      "baths": 3.8,
+      "list_price": 1320062.83
+    },
+    {
+      "id": 3,
+      "street_address": "7862 Cedar Rd",
+      "state": "IL",
+      "zip": "12591",
+      "sqft": 1520.02,
+      "beds": 1,
+      "baths": 2.7,
+      "list_price": 1002150.46
+    },
+    {
+      "id": 4,
+      "street_address": "5733 Cedar Ln",
+      "state": "NY",
+      "zip": "97033",
+      "sqft": 1916.09,
+      "beds": 5,
+      "baths": 1.3,
+      "list_price": 1489298.35
+    },
+    {
+      "id": 5,
+      "street_address": "7496 Oak Ln",
+      "state": "TX",
+      "zip": "34458",
+      "sqft": 2461.08,
+      "beds": 6,
+      "baths": 4.5,
+      "list_price": 1223891.23
+    },
+    {
+      "id": 6,
+      "street_address": "4594 Pine Rd",
+      "state": "IL",
+      "zip": "70901",
+      "sqft": 4925.83,
+      "beds": 3,
+      "baths": 4.8,
+      "list_price": 153401.36
+    },
+    {
+      "id": 7,
+      "street_address": "8125 Cedar Ln",
+      "state": "OH",
+      "zip": "20840",
+      "sqft": 4144.6,
+      "beds": 4,
+      "baths": 1.4,
+      "list_price": 1379101.92
+    },
+    {
+      "id": 8,
+      "street_address": "6635 Main Blvd",
+      "state": "FL",
+      "zip": "22653",
+      "sqft": 983.12,
+      "beds": 3,
+      "baths": 4.1,
+      "list_price": 1272281.3
+    },
+    {
+      "id": 9,
+      "street_address": "5947 Maple St",
+      "state": "NC",
+      "zip": "52949",
+      "sqft": 635.47,
+      "beds": 6,
+      "baths": 2.4,
+      "list_price": 1382854.76
+    },
+    {
+      "id": 10,
+      "street_address": "2298 Cedar St",
+      "state": "PA",
+      "zip": "57381",
+      "sqft": 4095.9,
+      "beds": 1,
+      "baths": 3.0,
+      "list_price": 832436.99
+    },
+    {
+      "id": 11,
+      "street_address": "5145 Oak Ave",
+      "state": "GA",
+      "zip": "12776",
+      "sqft": 3155.53,
+      "beds": 5,
+      "baths": 1.5,
+      "list_price": 725136.3
+    },
+    {
+      "id": 12,
+      "street_address": "6193 Main Ave",
+      "state": "GA",
+      "zip": "81552",
+      "sqft": 2415.8,
+      "beds": 3,
+      "baths": 1.6,
+      "list_price": 710319.01
+    },
+    {
+      "id": 13,
+      "street_address": "6073 Maple Blvd",
+      "state": "PA",
+      "zip": "13205",
+      "sqft": 2319.81,
+      "beds": 6,
+      "baths": 4.4,
+      "list_price": 1735089.14
+    },
+    {
+      "id": 14,
+      "street_address": "9547 Oak Ln",
+      "state": "OH",
+      "zip": "11333",
+      "sqft": 1124.6,
+      "beds": 4,
+      "baths": 3.7,
+      "list_price": 1992766.33
+    },
+    {
+      "id": 15,
+      "street_address": "7273 Cedar St",
+      "state": "MI",
+      "zip": "10060",
+      "sqft": 3832.78,
+      "beds": 2,
+      "baths": 3.1,
+      "list_price": 527392.47
+    },
+    {
+      "id": 16,
+      "street_address": "4908 Oak St",
+      "state": "IL",
+      "zip": "37321",
+      "sqft": 940.77,
+      "beds": 3,
+      "baths": 1.3,
+      "list_price": 1988589.18
+    },
+    {
+      "id": 17,
+      "street_address": "7083 Main St",
+      "state": "NC",
+      "zip": "91793",
+      "sqft": 3156.49,
+      "beds": 4,
+      "baths": 4.8,
+      "list_price": 1355210.12
+    },
+    {
+      "id": 18,
+      "street_address": "8627 Pine Ave",
+      "state": "NC",
+      "zip": "11103",
+      "sqft": 4443.82,
+      "beds": 4,
+      "baths": 1.6,
+      "list_price": 1846324.77
+    },
+    {
+      "id": 19,
+      "street_address": "463 Maple Blvd",
+      "state": "MI",
+      "zip": "62392",
+      "sqft": 2794.75,
+      "beds": 2,
+      "baths": 1.7,
+      "list_price": 448884.47
+    },
+    {
+      "id": 20,
+      "street_address": "9895 Main Rd",
+      "state": "IL",
+      "zip": "37735",
+      "sqft": 2792.32,
+      "beds": 4,
+      "baths": 4.8,
+      "list_price": 504645.08
+    },
+    {
+      "id": 21,
+      "street_address": "3243 Cedar Rd",
+      "state": "IL",
+      "zip": "24142",
+      "sqft": 4699.27,
+      "beds": 1,
+      "baths": 1.9,
+      "list_price": 339907.59
+    },
+    {
+      "id": 22,
+      "street_address": "2113 Oak Blvd",
+      "state": "CA",
+      "zip": "97430",
+      "sqft": 938.49,
+      "beds": 1,
+      "baths": 3.9,
+      "list_price": 1295072.6
+    },
+    {
+      "id": 23,
+      "street_address": "9320 Main Blvd",
+      "state": "NY",
+      "zip": "85978",
+      "sqft": 2417.26,
+      "beds": 1,
+      "baths": 2.5,
+      "list_price": 1040085.19
+    },
+    {
+      "id": 24,
+      "street_address": "3427 Oak Blvd",
+      "state": "MI",
+      "zip": "92249",
+      "sqft": 4852.6,
+      "beds": 3,
+      "baths": 4.7,
+      "list_price": 625313.75
+    },
+    {
+      "id": 25,
+      "street_address": "2935 Maple St",
+      "state": "OH",
+      "zip": "58525",
+      "sqft": 3551.25,
+      "beds": 4,
+      "baths": 3.8,
+      "list_price": 554741.31
+    },
+    {
+      "id": 26,
+      "street_address": "9798 Maple Ave",
+      "state": "NY",
+      "zip": "28423",
+      "sqft": 1888.66,
+      "beds": 6,
+      "baths": 4.1,
+      "list_price": 1576810.7
+    },
+    {
+      "id": 27,
+      "street_address": "1094 Oak St",
+      "state": "TX",
+      "zip": "41017",
+      "sqft": 3564.48,
+      "beds": 5,
+      "baths": 3.8,
+      "list_price": 1609428.61
+    },
+    {
+      "id": 28,
+      "street_address": "2139 Main Blvd",
+      "state": "CA",
+      "zip": "64860",
+      "sqft": 4535.44,
+      "beds": 2,
+      "baths": 4.1,
+      "list_price": 1202683.43
+    },
+    {
+      "id": 29,
+      "street_address": "3119 Maple St",
+      "state": "NC",
+      "zip": "64412",
+      "sqft": 4366.39,
+      "beds": 3,
+      "baths": 1.7,
+      "list_price": 1491881.71
+    },
+    {
+      "id": 30,
+      "street_address": "2907 Maple Blvd",
+      "state": "IL",
+      "zip": "73417",
+      "sqft": 1352.69,
+      "beds": 1,
+      "baths": 3.7,
+      "list_price": 1471945.61
+    },
+    {
+      "id": 31,
+      "street_address": "8988 Cedar Rd",
+      "state": "NC",
+      "zip": "63180",
+      "sqft": 1997.44,
+      "beds": 5,
+      "baths": 4.9,
+      "list_price": 834127.21
+    },
+    {
+      "id": 32,
+      "street_address": "362 Cedar Blvd",
+      "state": "OH",
+      "zip": "14400",
+      "sqft": 2760.31,
+      "beds": 6,
+      "baths": 1.0,
+      "list_price": 1410078.1
+    },
+    {
+      "id": 33,
+      "street_address": "5990 Main Rd",
+      "state": "MI",
+      "zip": "46454",
+      "sqft": 2119.99,
+      "beds": 2,
+      "baths": 2.3,
+      "list_price": 1830339.74
+    },
+    {
+      "id": 34,
+      "street_address": "6589 Oak Ave",
+      "state": "FL",
+      "zip": "25029",
+      "sqft": 722.39,
+      "beds": 4,
+      "baths": 2.4,
+      "list_price": 120710.57
+    },
+    {
+      "id": 35,
+      "street_address": "7268 Pine Rd",
+      "state": "PA",
+      "zip": "10549",
+      "sqft": 918.34,
+      "beds": 3,
+      "baths": 3.4,
+      "list_price": 597080.02
+    },
+    {
+      "id": 36,
+      "street_address": "3115 Main St",
+      "state": "FL",
+      "zip": "90693",
+      "sqft": 1022.04,
+      "beds": 4,
+      "baths": 1.1,
+      "list_price": 1732098.35
+    },
+    {
+      "id": 37,
+      "street_address": "5225 Cedar Ave",
+      "state": "TX",
+      "zip": "76843",
+      "sqft": 1191.61,
+      "beds": 1,
+      "baths": 3.8,
+      "list_price": 1766274.08
+    },
+    {
+      "id": 38,
+      "street_address": "429 Pine Rd",
+      "state": "TX",
+      "zip": "42940",
+      "sqft": 1116.48,
+      "beds": 5,
+      "baths": 1.7,
+      "list_price": 694292.83
+    },
+    {
+      "id": 39,
+      "street_address": "8830 Oak St",
+      "state": "FL",
+      "zip": "76885",
+      "sqft": 2147.7,
+      "beds": 2,
+      "baths": 2.1,
+      "list_price": 1702428.91
+    },
+    {
+      "id": 40,
+      "street_address": "4412 Pine Ln",
+      "state": "IL",
+      "zip": "62802",
+      "sqft": 991.29,
+      "beds": 4,
+      "baths": 3.7,
+      "list_price": 1966134.94
+    },
+    {
+      "id": 41,
+      "street_address": "6058 Maple Blvd",
+      "state": "PA",
+      "zip": "70059",
+      "sqft": 4961.69,
+      "beds": 6,
+      "baths": 2.8,
+      "list_price": 668024.27
+    },
+    {
+      "id": 42,
+      "street_address": "6097 Main St",
+      "state": "OH",
+      "zip": "76035",
+      "sqft": 1222.98,
+      "beds": 6,
+      "baths": 2.5,
+      "list_price": 1076140.1
+    },
+    {
+      "id": 43,
+      "street_address": "923 Main Ave",
+      "state": "CA",
+      "zip": "93737",
+      "sqft": 3597.24,
+      "beds": 6,
+      "baths": 3.2,
+      "list_price": 1709797.29
+    },
+    {
+      "id": 44,
+      "street_address": "353 Main Ln",
+      "state": "NC",
+      "zip": "40635",
+      "sqft": 2519.72,
+      "beds": 5,
+      "baths": 2.4,
+      "list_price": 1215340.8
+    },
+    {
+      "id": 45,
+      "street_address": "5000 Cedar Ln",
+      "state": "TX",
+      "zip": "84535",
+      "sqft": 3177.79,
+      "beds": 3,
+      "baths": 3.5,
+      "list_price": 504789.11
+    },
+    {
+      "id": 46,
+      "street_address": "4328 Main Blvd",
+      "state": "NC",
+      "zip": "11000",
+      "sqft": 2359.86,
+      "beds": 3,
+      "baths": 3.2,
+      "list_price": 1172784.31
+    },
+    {
+      "id": 47,
+      "street_address": "6664 Cedar Ln",
+      "state": "NC",
+      "zip": "86156",
+      "sqft": 4867.43,
+      "beds": 2,
+      "baths": 2.1,
+      "list_price": 1315032.56
+    },
+    {
+      "id": 48,
+      "street_address": "2835 Pine St",
+      "state": "MI",
+      "zip": "62870",
+      "sqft": 2226.22,
+      "beds": 2,
+      "baths": 4.5,
+      "list_price": 915863.65
+    },
+    {
+      "id": 49,
+      "street_address": "2243 Main St",
+      "state": "GA",
+      "zip": "44018",
+      "sqft": 4564.39,
+      "beds": 2,
+      "baths": 1.2,
+      "list_price": 1651303.12
+    },
+    {
+      "id": 50,
+      "street_address": "1462 Oak St",
+      "state": "FL",
+      "zip": "94773",
+      "sqft": 3984.91,
+      "beds": 4,
+      "baths": 3.1,
+      "list_price": 1805271.9
+    },
+    {
+      "id": 51,
+      "street_address": "6475 Pine Ln",
+      "state": "MI",
+      "zip": "90812",
+      "sqft": 793.03,
+      "beds": 1,
+      "baths": 2.3,
+      "list_price": 1397186.74
+    },
+    {
+      "id": 52,
+      "street_address": "8871 Maple Ln",
+      "state": "GA",
+      "zip": "14199",
+      "sqft": 750.97,
+      "beds": 3,
+      "baths": 3.4,
+      "list_price": 1913343.22
+    },
+    {
+      "id": 53,
+      "street_address": "1347 Pine St",
+      "state": "OH",
+      "zip": "89551",
+      "sqft": 2287.0,
+      "beds": 4,
+      "baths": 3.2,
+      "list_price": 654601.22
+    },
+    {
+      "id": 54,
+      "street_address": "1273 Maple Rd",
+      "state": "NC",
+      "zip": "58543",
+      "sqft": 1173.09,
+      "beds": 4,
+      "baths": 3.9,
+      "list_price": 947315.91
+    },
+    {
+      "id": 55,
+      "street_address": "9339 Main Blvd",
+      "state": "PA",
+      "zip": "53993",
+      "sqft": 3224.5,
+      "beds": 5,
+      "baths": 2.7,
+      "list_price": 229923.44
+    },
+    {
+      "id": 56,
+      "street_address": "8969 Cedar Ln",
+      "state": "FL",
+      "zip": "21123",
+      "sqft": 2814.86,
+      "beds": 1,
+      "baths": 5.0,
+      "list_price": 1595180.34
+    },
+    {
+      "id": 57,
+      "street_address": "7992 Pine Ln",
+      "state": "NC",
+      "zip": "69801",
+      "sqft": 3359.96,
+      "beds": 5,
+      "baths": 1.6,
+      "list_price": 258832.92
+    },
+    {
+      "id": 58,
+      "street_address": "595 Pine Blvd",
+      "state": "NY",
+      "zip": "23901",
+      "sqft": 2987.4,
+      "beds": 4,
+      "baths": 2.6,
+      "list_price": 584896.64
+    },
+    {
+      "id": 59,
+      "street_address": "8880 Oak St",
+      "state": "MI",
+      "zip": "98386",
+      "sqft": 2914.91,
+      "beds": 6,
+      "baths": 1.3,
+      "list_price": 1438524.21
+    },
+    {
+      "id": 60,
+      "street_address": "7151 Pine Blvd",
+      "state": "IL",
+      "zip": "28113",
+      "sqft": 2276.16,
+      "beds": 1,
+      "baths": 1.8,
+      "list_price": 176857.78
+    },
+    {
+      "id": 61,
+      "street_address": "8015 Main Blvd",
+      "state": "NC",
+      "zip": "40460",
+      "sqft": 981.34,
+      "beds": 2,
+      "baths": 2.3,
+      "list_price": 643024.11
+    },
+    {
+      "id": 62,
+      "street_address": "8379 Oak Rd",
+      "state": "IL",
+      "zip": "12622",
+      "sqft": 4402.61,
+      "beds": 6,
+      "baths": 3.8,
+      "list_price": 1059009.29
+    },
+    {
+      "id": 63,
+      "street_address": "5339 Oak Ave",
+      "state": "IL",
+      "zip": "63026",
+      "sqft": 576.46,
+      "beds": 5,
+      "baths": 4.4,
+      "list_price": 1715483.97
+    },
+    {
+      "id": 64,
+      "street_address": "3047 Main Rd",
+      "state": "IL",
+      "zip": "82499",
+      "sqft": 741.46,
+      "beds": 2,
+      "baths": 4.0,
+      "list_price": 1828911.6
+    },
+    {
+      "id": 65,
+      "street_address": "4354 Maple Ave",
+      "state": "NC",
+      "zip": "71318",
+      "sqft": 1070.48,
+      "beds": 5,
+      "baths": 2.3,
+      "list_price": 1594007.37
+    },
+    {
+      "id": 66,
+      "street_address": "1461 Cedar Ave",
+      "state": "MI",
+      "zip": "88111",
+      "sqft": 3890.93,
+      "beds": 2,
+      "baths": 1.9,
+      "list_price": 275436.52
+    },
+    {
+      "id": 67,
+      "street_address": "6483 Cedar Rd",
+      "state": "IL",
+      "zip": "69499",
+      "sqft": 1084.39,
+      "beds": 6,
+      "baths": 3.7,
+      "list_price": 1668501.93
+    },
+    {
+      "id": 68,
+      "street_address": "2787 Pine St",
+      "state": "NC",
+      "zip": "58834",
+      "sqft": 3814.73,
+      "beds": 1,
+      "baths": 2.9,
+      "list_price": 127867.26
+    },
+    {
+      "id": 69,
+      "street_address": "7182 Oak Blvd",
+      "state": "TX",
+      "zip": "98818",
+      "sqft": 2223.26,
+      "beds": 2,
+      "baths": 2.8,
+      "list_price": 1521274.48
+    },
+    {
+      "id": 70,
+      "street_address": "7961 Pine St",
+      "state": "CA",
+      "zip": "83883",
+      "sqft": 3970.31,
+      "beds": 2,
+      "baths": 4.7,
+      "list_price": 1950598.98
+    },
+    {
+      "id": 71,
+      "street_address": "7270 Pine Rd",
+      "state": "TX",
+      "zip": "27153",
+      "sqft": 4377.8,
+      "beds": 4,
+      "baths": 2.3,
+      "list_price": 1718052.46
+    },
+    {
+      "id": 72,
+      "street_address": "5282 Maple Blvd",
+      "state": "FL",
+      "zip": "44014",
+      "sqft": 3108.41,
+      "beds": 3,
+      "baths": 1.4,
+      "list_price": 1022871.87
+    },
+    {
+      "id": 73,
+      "street_address": "6125 Oak Rd",
+      "state": "TX",
+      "zip": "50851",
+      "sqft": 1286.32,
+      "beds": 1,
+      "baths": 2.2,
+      "list_price": 702685.65
+    },
+    {
+      "id": 74,
+      "street_address": "2083 Main Rd",
+      "state": "FL",
+      "zip": "23152",
+      "sqft": 1355.87,
+      "beds": 2,
+      "baths": 3.3,
+      "list_price": 1605414.4
+    },
+    {
+      "id": 75,
+      "street_address": "1906 Oak Blvd",
+      "state": "IL",
+      "zip": "41509",
+      "sqft": 4807.2,
+      "beds": 5,
+      "baths": 3.5,
+      "list_price": 240194.09
+    },
+    {
+      "id": 76,
+      "street_address": "4104 Oak St",
+      "state": "FL",
+      "zip": "57754",
+      "sqft": 3190.08,
+      "beds": 2,
+      "baths": 4.2,
+      "list_price": 1135025.34
+    },
+    {
+      "id": 77,
+      "street_address": "2170 Main Blvd",
+      "state": "PA",
+      "zip": "94532",
+      "sqft": 4122.07,
+      "beds": 1,
+      "baths": 1.4,
+      "list_price": 1373331.48
+    },
+    {
+      "id": 78,
+      "street_address": "676 Cedar Ln",
+      "state": "NC",
+      "zip": "29289",
+      "sqft": 4021.87,
+      "beds": 1,
+      "baths": 1.4,
+      "list_price": 461493.15
+    },
+    {
+      "id": 79,
+      "street_address": "7025 Maple Ave",
+      "state": "GA",
+      "zip": "80530",
+      "sqft": 4740.4,
+      "beds": 6,
+      "baths": 4.7,
+      "list_price": 547851.88
+    },
+    {
+      "id": 80,
+      "street_address": "8783 Pine Rd",
+      "state": "MI",
+      "zip": "73897",
+      "sqft": 4468.9,
+      "beds": 1,
+      "baths": 3.3,
+      "list_price": 947639.61
+    },
+    {
+      "id": 81,
+      "street_address": "4544 Oak Rd",
+      "state": "MI",
+      "zip": "50177",
+      "sqft": 4319.67,
+      "beds": 1,
+      "baths": 4.8,
+      "list_price": 1151756.98
+    },
+    {
+      "id": 82,
+      "street_address": "246 Pine Rd",
+      "state": "PA",
+      "zip": "83956",
+      "sqft": 2211.85,
+      "beds": 1,
+      "baths": 2.0,
+      "list_price": 1114896.69
+    },
+    {
+      "id": 83,
+      "street_address": "3648 Main Ln",
+      "state": "TX",
+      "zip": "75737",
+      "sqft": 2036.57,
+      "beds": 1,
+      "baths": 1.4,
+      "list_price": 481336.36
+    },
+    {
+      "id": 84,
+      "street_address": "7382 Main Rd",
+      "state": "OH",
+      "zip": "37761",
+      "sqft": 4738.76,
+      "beds": 4,
+      "baths": 4.6,
+      "list_price": 1661783.67
+    },
+    {
+      "id": 85,
+      "street_address": "8918 Main Ln",
+      "state": "CA",
+      "zip": "14749",
+      "sqft": 4482.02,
+      "beds": 2,
+      "baths": 4.3,
+      "list_price": 331790.77
+    },
+    {
+      "id": 86,
+      "street_address": "6654 Oak Ave",
+      "state": "PA",
+      "zip": "73471",
+      "sqft": 3055.05,
+      "beds": 5,
+      "baths": 2.9,
+      "list_price": 1361589.53
+    },
+    {
+      "id": 87,
+      "street_address": "6651 Oak St",
+      "state": "NY",
+      "zip": "86308",
+      "sqft": 4826.54,
+      "beds": 5,
+      "baths": 4.9,
+      "list_price": 295257.96
+    },
+    {
+      "id": 88,
+      "street_address": "5525 Cedar Ave",
+      "state": "IL",
+      "zip": "73043",
+      "sqft": 3968.09,
+      "beds": 2,
+      "baths": 3.9,
+      "list_price": 1299494.93
+    },
+    {
+      "id": 89,
+      "street_address": "7027 Maple Ln",
+      "state": "FL",
+      "zip": "16586",
+      "sqft": 3938.26,
+      "beds": 6,
+      "baths": 2.0,
+      "list_price": 1455962.41
+    },
+    {
+      "id": 90,
+      "street_address": "2066 Maple Ave",
+      "state": "GA",
+      "zip": "69720",
+      "sqft": 3369.73,
+      "beds": 5,
+      "baths": 2.3,
+      "list_price": 766805.69
+    },
+    {
+      "id": 91,
+      "street_address": "1424 Cedar Ln",
+      "state": "OH",
+      "zip": "56894",
+      "sqft": 3219.65,
+      "beds": 2,
+      "baths": 1.6,
+      "list_price": 1039189.0
+    },
+    {
+      "id": 92,
+      "street_address": "4824 Pine Ave",
+      "state": "MI",
+      "zip": "10997",
+      "sqft": 1820.8,
+      "beds": 5,
+      "baths": 4.5,
+      "list_price": 1956659.62
+    },
+    {
+      "id": 93,
+      "street_address": "550 Cedar Ln",
+      "state": "FL",
+      "zip": "98073",
+      "sqft": 2481.0,
+      "beds": 3,
+      "baths": 3.2,
+      "list_price": 1533315.3
+    },
+    {
+      "id": 94,
+      "street_address": "6630 Main Blvd",
+      "state": "OH",
+      "zip": "92699",
+      "sqft": 1567.61,
+      "beds": 5,
+      "baths": 5.0,
+      "list_price": 754724.17
+    },
+    {
+      "id": 95,
+      "street_address": "1822 Main Blvd",
+      "state": "CA",
+      "zip": "91978",
+      "sqft": 4257.52,
+      "beds": 6,
+      "baths": 2.1,
+      "list_price": 760909.84
+    },
+    {
+      "id": 96,
+      "street_address": "3753 Maple Ave",
+      "state": "PA",
+      "zip": "82211",
+      "sqft": 3811.44,
+      "beds": 2,
+      "baths": 3.7,
+      "list_price": 1553046.73
+    },
+    {
+      "id": 97,
+      "street_address": "8994 Oak Ln",
+      "state": "FL",
+      "zip": "41821",
+      "sqft": 4148.91,
+      "beds": 4,
+      "baths": 1.7,
+      "list_price": 766390.93
+    },
+    {
+      "id": 98,
+      "street_address": "206 Main Rd",
+      "state": "GA",
+      "zip": "57930",
+      "sqft": 648.5,
+      "beds": 3,
+      "baths": 1.4,
+      "list_price": 782259.88
+    },
+    {
+      "id": 99,
+      "street_address": "9411 Pine Rd",
+      "state": "NY",
+      "zip": "15408",
+      "sqft": 3384.35,
+      "beds": 2,
+      "baths": 1.6,
+      "list_price": 1631349.34
+    },
+    {
+      "id": 100,
+      "street_address": "9490 Cedar St",
+      "state": "MI",
+      "zip": "40972",
+      "sqft": 2431.04,
+      "beds": 6,
+      "baths": 3.2,
+      "list_price": 975313.27
+    },
+    {
+      "id": 101,
+      "street_address": "1878 Oak Ave",
+      "state": "NY",
+      "zip": "11077",
+      "sqft": 4113.88,
+      "beds": 4,
+      "baths": 3.9,
+      "list_price": 107199.28
+    },
+    {
+      "id": 102,
+      "street_address": "3216 Pine Rd",
+      "state": "TX",
+      "zip": "96143",
+      "sqft": 2723.27,
+      "beds": 5,
+      "baths": 3.6,
+      "list_price": 592997.69
+    },
+    {
+      "id": 103,
+      "street_address": "9778 Maple St",
+      "state": "OH",
+      "zip": "87821",
+      "sqft": 3226.47,
+      "beds": 4,
+      "baths": 3.5,
+      "list_price": 484115.18
+    },
+    {
+      "id": 104,
+      "street_address": "5390 Pine Ln",
+      "state": "IL",
+      "zip": "77878",
+      "sqft": 4482.68,
+      "beds": 2,
+      "baths": 3.5,
+      "list_price": 361874.34
+    },
+    {
+      "id": 105,
+      "street_address": "1047 Oak Blvd",
+      "state": "NC",
+      "zip": "68556",
+      "sqft": 4562.16,
+      "beds": 4,
+      "baths": 1.0,
+      "list_price": 250668.6
+    },
+    {
+      "id": 106,
+      "street_address": "2267 Cedar Blvd",
+      "state": "GA",
+      "zip": "36779",
+      "sqft": 4840.36,
+      "beds": 6,
+      "baths": 2.5,
+      "list_price": 318618.14
+    },
+    {
+      "id": 107,
+      "street_address": "6896 Oak Ave",
+      "state": "FL",
+      "zip": "88448",
+      "sqft": 2324.47,
+      "beds": 5,
+      "baths": 1.9,
+      "list_price": 1274996.45
+    },
+    {
+      "id": 108,
+      "street_address": "404 Main Ave",
+      "state": "NY",
+      "zip": "10313",
+      "sqft": 1429.6,
+      "beds": 6,
+      "baths": 3.1,
+      "list_price": 1410192.75
+    },
+    {
+      "id": 109,
+      "street_address": "2710 Main Rd",
+      "state": "MI",
+      "zip": "98037",
+      "sqft": 4506.69,
+      "beds": 2,
+      "baths": 4.5,
+      "list_price": 101254.07
+    },
+    {
+      "id": 110,
+      "street_address": "6513 Maple Blvd",
+      "state": "MI",
+      "zip": "71120",
+      "sqft": 1984.84,
+      "beds": 4,
+      "baths": 4.9,
+      "list_price": 1482342.52
+    },
+    {
+      "id": 111,
+      "street_address": "7646 Cedar Rd",
+      "state": "PA",
+      "zip": "87240",
+      "sqft": 4805.15,
+      "beds": 6,
+      "baths": 3.3,
+      "list_price": 451156.45
+    },
+    {
+      "id": 112,
+      "street_address": "2455 Maple Rd",
+      "state": "PA",
+      "zip": "78673",
+      "sqft": 4536.66,
+      "beds": 4,
+      "baths": 1.2,
+      "list_price": 1568176.0
+    },
+    {
+      "id": 113,
+      "street_address": "6171 Pine Rd",
+      "state": "NY",
+      "zip": "70998",
+      "sqft": 1884.78,
+      "beds": 5,
+      "baths": 3.9,
+      "list_price": 1653419.2
+    },
+    {
+      "id": 114,
+      "street_address": "747 Maple Ave",
+      "state": "FL",
+      "zip": "99521",
+      "sqft": 1320.24,
+      "beds": 1,
+      "baths": 4.7,
+      "list_price": 1450815.67
+    },
+    {
+      "id": 115,
+      "street_address": "7113 Oak Blvd",
+      "state": "FL",
+      "zip": "15667",
+      "sqft": 2836.96,
+      "beds": 5,
+      "baths": 1.9,
+      "list_price": 853010.45
+    },
+    {
+      "id": 116,
+      "street_address": "355 Maple Rd",
+      "state": "CA",
+      "zip": "39027",
+      "sqft": 2704.52,
+      "beds": 3,
+      "baths": 3.8,
+      "list_price": 556635.48
+    },
+    {
+      "id": 117,
+      "street_address": "8452 Maple St",
+      "state": "IL",
+      "zip": "64691",
+      "sqft": 1561.62,
+      "beds": 4,
+      "baths": 3.8,
+      "list_price": 272059.7
+    },
+    {
+      "id": 118,
+      "street_address": "5323 Pine St",
+      "state": "OH",
+      "zip": "32972",
+      "sqft": 3952.2,
+      "beds": 2,
+      "baths": 2.7,
+      "list_price": 201831.68
+    },
+    {
+      "id": 119,
+      "street_address": "1085 Main St",
+      "state": "NY",
+      "zip": "20496",
+      "sqft": 2755.14,
+      "beds": 5,
+      "baths": 4.3,
+      "list_price": 468690.67
+    },
+    {
+      "id": 120,
+      "street_address": "8301 Pine Ln",
+      "state": "PA",
+      "zip": "40627",
+      "sqft": 3326.04,
+      "beds": 1,
+      "baths": 2.4,
+      "list_price": 790154.48
+    },
+    {
+      "id": 121,
+      "street_address": "7381 Pine Ln",
+      "state": "NY",
+      "zip": "14645",
+      "sqft": 1109.46,
+      "beds": 4,
+      "baths": 4.8,
+      "list_price": 1815169.84
+    },
+    {
+      "id": 122,
+      "street_address": "7207 Cedar Blvd",
+      "state": "FL",
+      "zip": "79156",
+      "sqft": 4585.07,
+      "beds": 6,
+      "baths": 2.1,
+      "list_price": 164983.88
+    },
+    {
+      "id": 123,
+      "street_address": "5997 Cedar Rd",
+      "state": "NC",
+      "zip": "47291",
+      "sqft": 2727.48,
+      "beds": 1,
+      "baths": 4.4,
+      "list_price": 669991.0
+    },
+    {
+      "id": 124,
+      "street_address": "7063 Cedar Ave",
+      "state": "OH",
+      "zip": "25385",
+      "sqft": 815.99,
+      "beds": 4,
+      "baths": 1.8,
+      "list_price": 579515.57
+    },
+    {
+      "id": 125,
+      "street_address": "8772 Maple Rd",
+      "state": "NC",
+      "zip": "93863",
+      "sqft": 3822.76,
+      "beds": 1,
+      "baths": 4.5,
+      "list_price": 1243203.85
+    },
+    {
+      "id": 126,
+      "street_address": "6858 Oak Ln",
+      "state": "TX",
+      "zip": "14529",
+      "sqft": 4518.97,
+      "beds": 5,
+      "baths": 3.3,
+      "list_price": 1855791.86
+    },
+    {
+      "id": 127,
+      "street_address": "5786 Pine Blvd",
+      "state": "CA",
+      "zip": "19819",
+      "sqft": 3103.99,
+      "beds": 5,
+      "baths": 1.4,
+      "list_price": 1470677.69
+    },
+    {
+      "id": 128,
+      "street_address": "5154 Cedar Rd",
+      "state": "MI",
+      "zip": "80993",
+      "sqft": 2476.67,
+      "beds": 6,
+      "baths": 4.2,
+      "list_price": 1630440.99
+    },
+    {
+      "id": 129,
+      "street_address": "3694 Maple Rd",
+      "state": "OH",
+      "zip": "95943",
+      "sqft": 2184.65,
+      "beds": 2,
+      "baths": 2.9,
+      "list_price": 472010.45
+    },
+    {
+      "id": 130,
+      "street_address": "5987 Cedar St",
+      "state": "GA",
+      "zip": "83247",
+      "sqft": 2300.45,
+      "beds": 3,
+      "baths": 1.9,
+      "list_price": 1884973.54
+    },
+    {
+      "id": 131,
+      "street_address": "8333 Main St",
+      "state": "NY",
+      "zip": "36039",
+      "sqft": 529.76,
+      "beds": 4,
+      "baths": 3.7,
+      "list_price": 246218.21
+    },
+    {
+      "id": 132,
+      "street_address": "1253 Oak St",
+      "state": "OH",
+      "zip": "73330",
+      "sqft": 4974.69,
+      "beds": 4,
+      "baths": 4.1,
+      "list_price": 1740933.74
+    },
+    {
+      "id": 133,
+      "street_address": "9310 Oak Ave",
+      "state": "NC",
+      "zip": "72573",
+      "sqft": 3563.39,
+      "beds": 6,
+      "baths": 3.5,
+      "list_price": 1970669.09
+    },
+    {
+      "id": 134,
+      "street_address": "3211 Pine Ave",
+      "state": "OH",
+      "zip": "95946",
+      "sqft": 1295.08,
+      "beds": 4,
+      "baths": 4.0,
+      "list_price": 715019.43
+    },
+    {
+      "id": 135,
+      "street_address": "9701 Oak Blvd",
+      "state": "FL",
+      "zip": "16542",
+      "sqft": 804.41,
+      "beds": 2,
+      "baths": 4.1,
+      "list_price": 513667.26
+    },
+    {
+      "id": 136,
+      "street_address": "3247 Oak Rd",
+      "state": "MI",
+      "zip": "89023",
+      "sqft": 2333.29,
+      "beds": 6,
+      "baths": 5.0,
+      "list_price": 980806.59
+    },
+    {
+      "id": 137,
+      "street_address": "239 Pine Ave",
+      "state": "PA",
+      "zip": "35608",
+      "sqft": 1392.81,
+      "beds": 1,
+      "baths": 1.1,
+      "list_price": 1954583.98
+    },
+    {
+      "id": 138,
+      "street_address": "6305 Maple St",
+      "state": "FL",
+      "zip": "40886",
+      "sqft": 2135.7,
+      "beds": 1,
+      "baths": 2.4,
+      "list_price": 1302454.23
+    },
+    {
+      "id": 139,
+      "street_address": "4071 Main Ln",
+      "state": "IL",
+      "zip": "56249",
+      "sqft": 3166.41,
+      "beds": 3,
+      "baths": 1.9,
+      "list_price": 787979.39
+    },
+    {
+      "id": 140,
+      "street_address": "4943 Main Ave",
+      "state": "IL",
+      "zip": "50774",
+      "sqft": 2026.82,
+      "beds": 3,
+      "baths": 3.1,
+      "list_price": 1490742.52
+    },
+    {
+      "id": 141,
+      "street_address": "3360 Main Ave",
+      "state": "OH",
+      "zip": "63499",
+      "sqft": 1981.13,
+      "beds": 5,
+      "baths": 4.0,
+      "list_price": 1830693.2
+    },
+    {
+      "id": 142,
+      "street_address": "6023 Oak Ln",
+      "state": "NC",
+      "zip": "65743",
+      "sqft": 1761.08,
+      "beds": 6,
+      "baths": 2.1,
+      "list_price": 529861.4
+    },
+    {
+      "id": 143,
+      "street_address": "2610 Pine St",
+      "state": "OH",
+      "zip": "76416",
+      "sqft": 1071.34,
+      "beds": 4,
+      "baths": 2.1,
+      "list_price": 914002.26
+    },
+    {
+      "id": 144,
+      "street_address": "7582 Cedar St",
+      "state": "FL",
+      "zip": "20870",
+      "sqft": 2094.84,
+      "beds": 6,
+      "baths": 3.6,
+      "list_price": 827384.33
+    },
+    {
+      "id": 145,
+      "street_address": "9042 Main St",
+      "state": "PA",
+      "zip": "80795",
+      "sqft": 3076.03,
+      "beds": 2,
+      "baths": 3.8,
+      "list_price": 177067.2
+    },
+    {
+      "id": 146,
+      "street_address": "6369 Oak Rd",
+      "state": "MI",
+      "zip": "81152",
+      "sqft": 2108.43,
+      "beds": 3,
+      "baths": 3.8,
+      "list_price": 633235.05
+    },
+    {
+      "id": 147,
+      "street_address": "9735 Pine Ln",
+      "state": "TX",
+      "zip": "82886",
+      "sqft": 4679.64,
+      "beds": 2,
+      "baths": 1.8,
+      "list_price": 1530543.74
+    },
+    {
+      "id": 148,
+      "street_address": "721 Oak Ave",
+      "state": "GA",
+      "zip": "95562",
+      "sqft": 2033.7,
+      "beds": 2,
+      "baths": 3.3,
+      "list_price": 527136.35
+    },
+    {
+      "id": 149,
+      "street_address": "6253 Pine St",
+      "state": "MI",
+      "zip": "12955",
+      "sqft": 3637.45,
+      "beds": 6,
+      "baths": 1.3,
+      "list_price": 1231987.31
+    },
+    {
+      "id": 150,
+      "street_address": "5554 Cedar Blvd",
+      "state": "IL",
+      "zip": "28722",
+      "sqft": 1632.06,
+      "beds": 5,
+      "baths": 2.9,
+      "list_price": 676707.62
+    },
+    {
+      "id": 151,
+      "street_address": "3467 Main Blvd",
+      "state": "NY",
+      "zip": "48765",
+      "sqft": 4312.89,
+      "beds": 2,
+      "baths": 3.8,
+      "list_price": 493766.64
+    },
+    {
+      "id": 152,
+      "street_address": "7307 Oak Rd",
+      "state": "IL",
+      "zip": "71409",
+      "sqft": 4827.65,
+      "beds": 2,
+      "baths": 4.7,
+      "list_price": 1323529.3
+    },
+    {
+      "id": 153,
+      "street_address": "7019 Main Blvd",
+      "state": "GA",
+      "zip": "37378",
+      "sqft": 2561.85,
+      "beds": 3,
+      "baths": 4.9,
+      "list_price": 1236461.57
+    },
+    {
+      "id": 154,
+      "street_address": "3539 Main Ln",
+      "state": "CA",
+      "zip": "30593",
+      "sqft": 2268.09,
+      "beds": 6,
+      "baths": 1.0,
+      "list_price": 792081.14
+    },
+    {
+      "id": 155,
+      "street_address": "4027 Oak Ln",
+      "state": "CA",
+      "zip": "29531",
+      "sqft": 4795.1,
+      "beds": 1,
+      "baths": 1.1,
+      "list_price": 1748523.78
+    },
+    {
+      "id": 156,
+      "street_address": "8657 Main Blvd",
+      "state": "MI",
+      "zip": "28245",
+      "sqft": 1004.18,
+      "beds": 4,
+      "baths": 4.2,
+      "list_price": 1410948.46
+    },
+    {
+      "id": 157,
+      "street_address": "5924 Main Blvd",
+      "state": "NC",
+      "zip": "21321",
+      "sqft": 3756.12,
+      "beds": 1,
+      "baths": 4.8,
+      "list_price": 114305.85
+    },
+    {
+      "id": 158,
+      "street_address": "5756 Cedar Ln",
+      "state": "NC",
+      "zip": "44248",
+      "sqft": 1376.19,
+      "beds": 1,
+      "baths": 1.5,
+      "list_price": 904722.73
+    },
+    {
+      "id": 159,
+      "street_address": "4585 Maple Ave",
+      "state": "GA",
+      "zip": "79266",
+      "sqft": 3046.99,
+      "beds": 1,
+      "baths": 1.0,
+      "list_price": 909480.85
+    },
+    {
+      "id": 160,
+      "street_address": "7651 Oak Blvd",
+      "state": "CA",
+      "zip": "25657",
+      "sqft": 2205.59,
+      "beds": 4,
+      "baths": 2.4,
+      "list_price": 434833.23
+    },
+    {
+      "id": 161,
+      "street_address": "7162 Pine Ave",
+      "state": "IL",
+      "zip": "47007",
+      "sqft": 4467.83,
+      "beds": 4,
+      "baths": 3.2,
+      "list_price": 368138.51
+    },
+    {
+      "id": 162,
+      "street_address": "6630 Maple St",
+      "state": "TX",
+      "zip": "14651",
+      "sqft": 4259.39,
+      "beds": 1,
+      "baths": 4.5,
+      "list_price": 1414854.7
+    },
+    {
+      "id": 163,
+      "street_address": "7342 Main St",
+      "state": "TX",
+      "zip": "10944",
+      "sqft": 877.01,
+      "beds": 1,
+      "baths": 4.2,
+      "list_price": 1637617.14
+    },
+    {
+      "id": 164,
+      "street_address": "544 Cedar Rd",
+      "state": "TX",
+      "zip": "12683",
+      "sqft": 3714.26,
+      "beds": 1,
+      "baths": 4.5,
+      "list_price": 840084.12
+    },
+    {
+      "id": 165,
+      "street_address": "4903 Main Ave",
+      "state": "NY",
+      "zip": "24202",
+      "sqft": 679.37,
+      "beds": 6,
+      "baths": 3.7,
+      "list_price": 552398.35
+    },
+    {
+      "id": 166,
+      "street_address": "7469 Oak Rd",
+      "state": "OH",
+      "zip": "18773",
+      "sqft": 3674.86,
+      "beds": 1,
+      "baths": 2.3,
+      "list_price": 866947.81
+    },
+    {
+      "id": 167,
+      "street_address": "9131 Maple St",
+      "state": "OH",
+      "zip": "28710",
+      "sqft": 4240.22,
+      "beds": 1,
+      "baths": 4.2,
+      "list_price": 668702.97
+    },
+    {
+      "id": 168,
+      "street_address": "4748 Oak Ave",
+      "state": "OH",
+      "zip": "53943",
+      "sqft": 3421.85,
+      "beds": 5,
+      "baths": 2.6,
+      "list_price": 1278822.02
+    },
+    {
+      "id": 169,
+      "street_address": "5760 Oak Rd",
+      "state": "NC",
+      "zip": "61284",
+      "sqft": 2708.44,
+      "beds": 5,
+      "baths": 2.4,
+      "list_price": 1818045.56
+    },
+    {
+      "id": 170,
+      "street_address": "6127 Maple Ave",
+      "state": "NC",
+      "zip": "27194",
+      "sqft": 2498.08,
+      "beds": 3,
+      "baths": 2.6,
+      "list_price": 1462440.62
+    },
+    {
+      "id": 171,
+      "street_address": "7164 Oak St",
+      "state": "NY",
+      "zip": "99726",
+      "sqft": 4283.54,
+      "beds": 5,
+      "baths": 3.9,
+      "list_price": 445631.76
+    },
+    {
+      "id": 172,
+      "street_address": "1916 Oak Ln",
+      "state": "CA",
+      "zip": "91331",
+      "sqft": 1778.34,
+      "beds": 6,
+      "baths": 2.9,
+      "list_price": 181539.38
+    },
+    {
+      "id": 173,
+      "street_address": "2803 Maple St",
+      "state": "NC",
+      "zip": "67572",
+      "sqft": 3072.78,
+      "beds": 4,
+      "baths": 1.7,
+      "list_price": 173821.43
+    },
+    {
+      "id": 174,
+      "street_address": "8361 Pine Ln",
+      "state": "IL",
+      "zip": "19054",
+      "sqft": 975.76,
+      "beds": 5,
+      "baths": 1.5,
+      "list_price": 1926015.42
+    },
+    {
+      "id": 175,
+      "street_address": "1645 Cedar Rd",
+      "state": "IL",
+      "zip": "86645",
+      "sqft": 3404.5,
+      "beds": 4,
+      "baths": 2.3,
+      "list_price": 1688409.65
+    },
+    {
+      "id": 176,
+      "street_address": "3589 Main St",
+      "state": "MI",
+      "zip": "73053",
+      "sqft": 3012.02,
+      "beds": 1,
+      "baths": 2.5,
+      "list_price": 763559.41
+    },
+    {
+      "id": 177,
+      "street_address": "7991 Oak Ave",
+      "state": "GA",
+      "zip": "98322",
+      "sqft": 1384.37,
+      "beds": 6,
+      "baths": 1.5,
+      "list_price": 360931.77
+    },
+    {
+      "id": 178,
+      "street_address": "6161 Pine St",
+      "state": "FL",
+      "zip": "35681",
+      "sqft": 4084.27,
+      "beds": 6,
+      "baths": 1.8,
+      "list_price": 568311.96
+    },
+    {
+      "id": 179,
+      "street_address": "5707 Pine Ln",
+      "state": "TX",
+      "zip": "72683",
+      "sqft": 1973.12,
+      "beds": 4,
+      "baths": 1.6,
+      "list_price": 996878.09
+    },
+    {
+      "id": 180,
+      "street_address": "3393 Pine St",
+      "state": "TX",
+      "zip": "42684",
+      "sqft": 1448.75,
+      "beds": 1,
+      "baths": 1.3,
+      "list_price": 744470.55
+    },
+    {
+      "id": 181,
+      "street_address": "8756 Pine Rd",
+      "state": "NC",
+      "zip": "82404",
+      "sqft": 4895.41,
+      "beds": 3,
+      "baths": 1.2,
+      "list_price": 100169.6
+    },
+    {
+      "id": 182,
+      "street_address": "503 Pine Ln",
+      "state": "OH",
+      "zip": "39146",
+      "sqft": 1056.01,
+      "beds": 6,
+      "baths": 2.0,
+      "list_price": 764440.41
+    },
+    {
+      "id": 183,
+      "street_address": "2140 Maple St",
+      "state": "TX",
+      "zip": "72965",
+      "sqft": 3231.66,
+      "beds": 1,
+      "baths": 3.8,
+      "list_price": 1328439.47
+    },
+    {
+      "id": 184,
+      "street_address": "2573 Oak Ave",
+      "state": "GA",
+      "zip": "89359",
+      "sqft": 4616.81,
+      "beds": 6,
+      "baths": 3.0,
+      "list_price": 1000111.44
+    },
+    {
+      "id": 185,
+      "street_address": "9602 Cedar Rd",
+      "state": "GA",
+      "zip": "29186",
+      "sqft": 3978.39,
+      "beds": 1,
+      "baths": 1.5,
+      "list_price": 162964.79
+    },
+    {
+      "id": 186,
+      "street_address": "2124 Oak St",
+      "state": "IL",
+      "zip": "40234",
+      "sqft": 2346.44,
+      "beds": 1,
+      "baths": 1.1,
+      "list_price": 1723143.21
+    },
+    {
+      "id": 187,
+      "street_address": "6754 Pine Rd",
+      "state": "FL",
+      "zip": "28406",
+      "sqft": 4216.83,
+      "beds": 5,
+      "baths": 3.3,
+      "list_price": 112398.01
+    },
+    {
+      "id": 188,
+      "street_address": "6374 Oak Ln",
+      "state": "NY",
+      "zip": "32952",
+      "sqft": 4282.5,
+      "beds": 1,
+      "baths": 4.3,
+      "list_price": 182397.29
+    },
+    {
+      "id": 189,
+      "street_address": "9230 Pine Rd",
+      "state": "NC",
+      "zip": "34025",
+      "sqft": 3155.24,
+      "beds": 2,
+      "baths": 3.8,
+      "list_price": 713070.55
+    },
+    {
+      "id": 190,
+      "street_address": "8056 Oak Ln",
+      "state": "NY",
+      "zip": "80683",
+      "sqft": 860.63,
+      "beds": 6,
+      "baths": 2.6,
+      "list_price": 1497025.71
+    },
+    {
+      "id": 191,
+      "street_address": "3691 Oak Ln",
+      "state": "TX",
+      "zip": "73607",
+      "sqft": 1459.75,
+      "beds": 6,
+      "baths": 4.8,
+      "list_price": 1663411.44
+    },
+    {
+      "id": 192,
+      "street_address": "5705 Maple Ave",
+      "state": "PA",
+      "zip": "34435",
+      "sqft": 2381.91,
+      "beds": 2,
+      "baths": 3.4,
+      "list_price": 1725002.6
+    },
+    {
+      "id": 193,
+      "street_address": "4240 Main Rd",
+      "state": "PA",
+      "zip": "77649",
+      "sqft": 1289.13,
+      "beds": 4,
+      "baths": 2.8,
+      "list_price": 1530414.89
+    },
+    {
+      "id": 194,
+      "street_address": "8941 Oak Ln",
+      "state": "FL",
+      "zip": "89682",
+      "sqft": 4540.61,
+      "beds": 1,
+      "baths": 4.1,
+      "list_price": 448036.95
+    },
+    {
+      "id": 195,
+      "street_address": "2606 Pine Blvd",
+      "state": "NC",
+      "zip": "14027",
+      "sqft": 2406.68,
+      "beds": 2,
+      "baths": 3.4,
+      "list_price": 1362723.96
+    },
+    {
+      "id": 196,
+      "street_address": "2095 Main Rd",
+      "state": "FL",
+      "zip": "73366",
+      "sqft": 528.15,
+      "beds": 2,
+      "baths": 4.3,
+      "list_price": 1532556.59
+    },
+    {
+      "id": 197,
+      "street_address": "8742 Cedar Blvd",
+      "state": "PA",
+      "zip": "37175",
+      "sqft": 2588.78,
+      "beds": 4,
+      "baths": 4.3,
+      "list_price": 1971066.56
+    },
+    {
+      "id": 198,
+      "street_address": "597 Maple St",
+      "state": "IL",
+      "zip": "33069",
+      "sqft": 4453.83,
+      "beds": 2,
+      "baths": 3.7,
+      "list_price": 1614731.67
+    },
+    {
+      "id": 199,
+      "street_address": "7265 Oak Rd",
+      "state": "PA",
+      "zip": "25021",
+      "sqft": 697.87,
+      "beds": 1,
+      "baths": 2.7,
+      "list_price": 361881.27
+    },
+    {
+      "id": 200,
+      "street_address": "172 Oak Ave",
+      "state": "CA",
+      "zip": "46516",
+      "sqft": 4982.06,
+      "beds": 6,
+      "baths": 4.4,
+      "list_price": 908613.33
+    },
+    {
+      "id": 201,
+      "street_address": "3369 Oak Ave",
+      "state": "PA",
+      "zip": "30587",
+      "sqft": 4090.67,
+      "beds": 1,
+      "baths": 3.4,
+      "list_price": 458063.31
+    },
+    {
+      "id": 202,
+      "street_address": "7873 Maple Blvd",
+      "state": "GA",
+      "zip": "64944",
+      "sqft": 4762.63,
+      "beds": 2,
+      "baths": 4.3,
+      "list_price": 603369.77
+    },
+    {
+      "id": 203,
+      "street_address": "8730 Main Ave",
+      "state": "OH",
+      "zip": "81475",
+      "sqft": 2955.65,
+      "beds": 5,
+      "baths": 2.6,
+      "list_price": 1195624.04
+    },
+    {
+      "id": 204,
+      "street_address": "8442 Main Ln",
+      "state": "FL",
+      "zip": "24940",
+      "sqft": 4553.9,
+      "beds": 4,
+      "baths": 1.7,
+      "list_price": 1506793.36
+    },
+    {
+      "id": 205,
+      "street_address": "5237 Maple Blvd",
+      "state": "CA",
+      "zip": "91454",
+      "sqft": 2925.76,
+      "beds": 1,
+      "baths": 3.2,
+      "list_price": 979758.92
+    },
+    {
+      "id": 206,
+      "street_address": "6525 Cedar Ave",
+      "state": "NY",
+      "zip": "53477",
+      "sqft": 1432.93,
+      "beds": 5,
+      "baths": 3.7,
+      "list_price": 1716273.81
+    },
+    {
+      "id": 207,
+      "street_address": "935 Cedar St",
+      "state": "IL",
+      "zip": "10137",
+      "sqft": 703.09,
+      "beds": 2,
+      "baths": 2.1,
+      "list_price": 528379.1
+    },
+    {
+      "id": 208,
+      "street_address": "2002 Main St",
+      "state": "GA",
+      "zip": "52804",
+      "sqft": 4550.39,
+      "beds": 3,
+      "baths": 3.2,
+      "list_price": 769480.85
+    },
+    {
+      "id": 209,
+      "street_address": "8275 Pine Ln",
+      "state": "CA",
+      "zip": "40406",
+      "sqft": 1261.17,
+      "beds": 5,
+      "baths": 3.8,
+      "list_price": 706265.04
+    },
+    {
+      "id": 210,
+      "street_address": "3303 Oak Ln",
+      "state": "PA",
+      "zip": "91965",
+      "sqft": 821.34,
+      "beds": 4,
+      "baths": 5.0,
+      "list_price": 349325.79
+    },
+    {
+      "id": 211,
+      "street_address": "1931 Cedar Blvd",
+      "state": "PA",
+      "zip": "52925",
+      "sqft": 3598.13,
+      "beds": 3,
+      "baths": 2.9,
+      "list_price": 678803.91
+    },
+    {
+      "id": 212,
+      "street_address": "6710 Main Blvd",
+      "state": "IL",
+      "zip": "38394",
+      "sqft": 3397.78,
+      "beds": 6,
+      "baths": 4.3,
+      "list_price": 1609269.73
+    },
+    {
+      "id": 213,
+      "street_address": "171 Main St",
+      "state": "NC",
+      "zip": "42472",
+      "sqft": 4208.54,
+      "beds": 1,
+      "baths": 3.6,
+      "list_price": 437569.8
+    },
+    {
+      "id": 214,
+      "street_address": "5120 Maple Rd",
+      "state": "TX",
+      "zip": "21342",
+      "sqft": 2871.79,
+      "beds": 4,
+      "baths": 4.3,
+      "list_price": 1968060.08
+    },
+    {
+      "id": 215,
+      "street_address": "1500 Oak Blvd",
+      "state": "NC",
+      "zip": "42999",
+      "sqft": 3525.51,
+      "beds": 6,
+      "baths": 4.2,
+      "list_price": 1948942.12
+    },
+    {
+      "id": 216,
+      "street_address": "5729 Pine Ave",
+      "state": "FL",
+      "zip": "25501",
+      "sqft": 2350.87,
+      "beds": 5,
+      "baths": 1.2,
+      "list_price": 1275531.66
+    },
+    {
+      "id": 217,
+      "street_address": "6760 Cedar Rd",
+      "state": "GA",
+      "zip": "77328",
+      "sqft": 4932.25,
+      "beds": 2,
+      "baths": 3.4,
+      "list_price": 951572.58
+    },
+    {
+      "id": 218,
+      "street_address": "1818 Oak Blvd",
+      "state": "GA",
+      "zip": "29546",
+      "sqft": 2874.23,
+      "beds": 1,
+      "baths": 4.7,
+      "list_price": 742520.36
+    },
+    {
+      "id": 219,
+      "street_address": "6303 Maple Ave",
+      "state": "FL",
+      "zip": "59709",
+      "sqft": 2408.57,
+      "beds": 2,
+      "baths": 1.8,
+      "list_price": 1659747.25
+    },
+    {
+      "id": 220,
+      "street_address": "9648 Main St",
+      "state": "FL",
+      "zip": "71579",
+      "sqft": 4467.06,
+      "beds": 6,
+      "baths": 3.2,
+      "list_price": 1666596.55
+    },
+    {
+      "id": 221,
+      "street_address": "9808 Oak Ave",
+      "state": "NC",
+      "zip": "21458",
+      "sqft": 1083.87,
+      "beds": 1,
+      "baths": 4.2,
+      "list_price": 583562.82
+    },
+    {
+      "id": 222,
+      "street_address": "6588 Main St",
+      "state": "OH",
+      "zip": "34976",
+      "sqft": 3044.95,
+      "beds": 2,
+      "baths": 3.1,
+      "list_price": 1505335.35
+    },
+    {
+      "id": 223,
+      "street_address": "455 Main Ln",
+      "state": "MI",
+      "zip": "95938",
+      "sqft": 2299.83,
+      "beds": 3,
+      "baths": 3.3,
+      "list_price": 707456.5
+    },
+    {
+      "id": 224,
+      "street_address": "4067 Pine Ln",
+      "state": "MI",
+      "zip": "46590",
+      "sqft": 2316.85,
+      "beds": 5,
+      "baths": 3.5,
+      "list_price": 851632.84
+    },
+    {
+      "id": 225,
+      "street_address": "6549 Maple St",
+      "state": "FL",
+      "zip": "94865",
+      "sqft": 4946.32,
+      "beds": 3,
+      "baths": 1.4,
+      "list_price": 923431.66
+    },
+    {
+      "id": 226,
+      "street_address": "5691 Maple Ln",
+      "state": "MI",
+      "zip": "48468",
+      "sqft": 1887.22,
+      "beds": 6,
+      "baths": 1.4,
+      "list_price": 749771.54
+    },
+    {
+      "id": 227,
+      "street_address": "707 Main Ave",
+      "state": "CA",
+      "zip": "73029",
+      "sqft": 3416.39,
+      "beds": 6,
+      "baths": 1.9,
+      "list_price": 1179132.64
+    },
+    {
+      "id": 228,
+      "street_address": "3041 Cedar Rd",
+      "state": "NY",
+      "zip": "58591",
+      "sqft": 1698.2,
+      "beds": 3,
+      "baths": 2.8,
+      "list_price": 482927.18
+    },
+    {
+      "id": 229,
+      "street_address": "4801 Oak St",
+      "state": "TX",
+      "zip": "74789",
+      "sqft": 4910.71,
+      "beds": 1,
+      "baths": 1.4,
+      "list_price": 191129.05
+    },
+    {
+      "id": 230,
+      "street_address": "2198 Cedar Ave",
+      "state": "IL",
+      "zip": "53705",
+      "sqft": 2502.0,
+      "beds": 2,
+      "baths": 2.4,
+      "list_price": 251518.09
+    },
+    {
+      "id": 231,
+      "street_address": "3028 Cedar Rd",
+      "state": "NY",
+      "zip": "52472",
+      "sqft": 4152.96,
+      "beds": 2,
+      "baths": 2.7,
+      "list_price": 890989.48
+    },
+    {
+      "id": 232,
+      "street_address": "8826 Main Ln",
+      "state": "NC",
+      "zip": "85959",
+      "sqft": 4070.1,
+      "beds": 6,
+      "baths": 3.9,
+      "list_price": 411759.3
+    },
+    {
+      "id": 233,
+      "street_address": "9587 Pine Blvd",
+      "state": "GA",
+      "zip": "19264",
+      "sqft": 2802.88,
+      "beds": 2,
+      "baths": 1.4,
+      "list_price": 1288900.27
+    },
+    {
+      "id": 234,
+      "street_address": "8578 Oak Ln",
+      "state": "CA",
+      "zip": "27278",
+      "sqft": 1416.62,
+      "beds": 3,
+      "baths": 1.2,
+      "list_price": 980617.0
+    },
+    {
+      "id": 235,
+      "street_address": "3065 Cedar Blvd",
+      "state": "NC",
+      "zip": "84043",
+      "sqft": 1458.01,
+      "beds": 5,
+      "baths": 3.2,
+      "list_price": 1599931.99
+    },
+    {
+      "id": 236,
+      "street_address": "4985 Maple Ln",
+      "state": "TX",
+      "zip": "51649",
+      "sqft": 4755.14,
+      "beds": 2,
+      "baths": 2.3,
+      "list_price": 1651468.38
+    },
+    {
+      "id": 237,
+      "street_address": "241 Pine Rd",
+      "state": "NY",
+      "zip": "86605",
+      "sqft": 3403.82,
+      "beds": 3,
+      "baths": 3.4,
+      "list_price": 168752.85
+    },
+    {
+      "id": 238,
+      "street_address": "2431 Cedar Rd",
+      "state": "IL",
+      "zip": "78851",
+      "sqft": 2042.87,
+      "beds": 6,
+      "baths": 4.1,
+      "list_price": 1006799.5
+    },
+    {
+      "id": 239,
+      "street_address": "6346 Oak Blvd",
+      "state": "MI",
+      "zip": "54865",
+      "sqft": 2530.03,
+      "beds": 4,
+      "baths": 4.5,
+      "list_price": 267117.17
+    },
+    {
+      "id": 240,
+      "street_address": "8415 Oak Blvd",
+      "state": "NC",
+      "zip": "24056",
+      "sqft": 2132.99,
+      "beds": 6,
+      "baths": 3.5,
+      "list_price": 496900.47
+    },
+    {
+      "id": 241,
+      "street_address": "1613 Pine St",
+      "state": "TX",
+      "zip": "36096",
+      "sqft": 4556.43,
+      "beds": 2,
+      "baths": 2.2,
+      "list_price": 1805885.84
+    },
+    {
+      "id": 242,
+      "street_address": "2150 Main St",
+      "state": "IL",
+      "zip": "25423",
+      "sqft": 3028.31,
+      "beds": 1,
+      "baths": 2.1,
+      "list_price": 404135.1
+    },
+    {
+      "id": 243,
+      "street_address": "4383 Maple Blvd",
+      "state": "PA",
+      "zip": "73994",
+      "sqft": 2669.38,
+      "beds": 6,
+      "baths": 3.0,
+      "list_price": 1858111.16
+    },
+    {
+      "id": 244,
+      "street_address": "1698 Maple Rd",
+      "state": "NY",
+      "zip": "14381",
+      "sqft": 4629.92,
+      "beds": 6,
+      "baths": 3.4,
+      "list_price": 238952.74
+    },
+    {
+      "id": 245,
+      "street_address": "6631 Pine St",
+      "state": "NC",
+      "zip": "18966",
+      "sqft": 2480.27,
+      "beds": 4,
+      "baths": 3.2,
+      "list_price": 894201.28
+    },
+    {
+      "id": 246,
+      "street_address": "2074 Pine St",
+      "state": "GA",
+      "zip": "39455",
+      "sqft": 3589.34,
+      "beds": 4,
+      "baths": 3.2,
+      "list_price": 1778711.51
+    },
+    {
+      "id": 247,
+      "street_address": "2221 Cedar Ave",
+      "state": "OH",
+      "zip": "13587",
+      "sqft": 1447.68,
+      "beds": 2,
+      "baths": 4.1,
+      "list_price": 1055374.22
+    },
+    {
+      "id": 248,
+      "street_address": "5737 Main Rd",
+      "state": "GA",
+      "zip": "68155",
+      "sqft": 3022.53,
+      "beds": 5,
+      "baths": 5.0,
+      "list_price": 1980778.94
+    },
+    {
+      "id": 249,
+      "street_address": "6029 Main Rd",
+      "state": "FL",
+      "zip": "42165",
+      "sqft": 3085.9,
+      "beds": 1,
+      "baths": 4.3,
+      "list_price": 1356356.44
+    },
+    {
+      "id": 250,
+      "street_address": "7761 Maple Rd",
+      "state": "FL",
+      "zip": "81259",
+      "sqft": 4616.93,
+      "beds": 1,
+      "baths": 4.6,
+      "list_price": 1516379.03
+    },
+    {
+      "id": 251,
+      "street_address": "6201 Oak Rd",
+      "state": "MI",
+      "zip": "26230",
+      "sqft": 2077.6,
+      "beds": 5,
+      "baths": 3.2,
+      "list_price": 1884674.93
+    },
+    {
+      "id": 252,
+      "street_address": "5102 Oak Rd",
+      "state": "TX",
+      "zip": "94881",
+      "sqft": 1133.09,
+      "beds": 6,
+      "baths": 3.1,
+      "list_price": 653800.84
+    },
+    {
+      "id": 253,
+      "street_address": "1872 Main Rd",
+      "state": "FL",
+      "zip": "31064",
+      "sqft": 2177.24,
+      "beds": 2,
+      "baths": 2.7,
+      "list_price": 1253706.12
+    },
+    {
+      "id": 254,
+      "street_address": "8774 Main St",
+      "state": "MI",
+      "zip": "58691",
+      "sqft": 1843.6,
+      "beds": 5,
+      "baths": 4.2,
+      "list_price": 1413629.89
+    },
+    {
+      "id": 255,
+      "street_address": "327 Oak Rd",
+      "state": "MI",
+      "zip": "39883",
+      "sqft": 3015.8,
+      "beds": 4,
+      "baths": 3.0,
+      "list_price": 924651.57
+    },
+    {
+      "id": 256,
+      "street_address": "6856 Pine Ln",
+      "state": "NC",
+      "zip": "40480",
+      "sqft": 2345.31,
+      "beds": 5,
+      "baths": 1.3,
+      "list_price": 741513.03
+    },
+    {
+      "id": 257,
+      "street_address": "3475 Cedar St",
+      "state": "PA",
+      "zip": "13724",
+      "sqft": 3606.69,
+      "beds": 1,
+      "baths": 1.7,
+      "list_price": 469287.65
+    },
+    {
+      "id": 258,
+      "street_address": "3396 Oak Blvd",
+      "state": "NY",
+      "zip": "85755",
+      "sqft": 3552.98,
+      "beds": 2,
+      "baths": 2.9,
+      "list_price": 831245.43
+    },
+    {
+      "id": 259,
+      "street_address": "6710 Cedar Blvd",
+      "state": "CA",
+      "zip": "94273",
+      "sqft": 3611.64,
+      "beds": 1,
+      "baths": 2.8,
+      "list_price": 1807454.14
+    },
+    {
+      "id": 260,
+      "street_address": "5999 Main St",
+      "state": "TX",
+      "zip": "74032",
+      "sqft": 4472.4,
+      "beds": 6,
+      "baths": 4.3,
+      "list_price": 1671450.3
+    },
+    {
+      "id": 261,
+      "street_address": "7198 Oak Blvd",
+      "state": "CA",
+      "zip": "34319",
+      "sqft": 3377.54,
+      "beds": 6,
+      "baths": 2.5,
+      "list_price": 557785.79
+    },
+    {
+      "id": 262,
+      "street_address": "4243 Cedar Blvd",
+      "state": "MI",
+      "zip": "69006",
+      "sqft": 4081.53,
+      "beds": 2,
+      "baths": 1.5,
+      "list_price": 1118495.4
+    },
+    {
+      "id": 263,
+      "street_address": "1714 Pine St",
+      "state": "NY",
+      "zip": "88344",
+      "sqft": 2657.06,
+      "beds": 2,
+      "baths": 2.2,
+      "list_price": 483261.4
+    },
+    {
+      "id": 264,
+      "street_address": "3100 Maple Blvd",
+      "state": "MI",
+      "zip": "78140",
+      "sqft": 4579.77,
+      "beds": 6,
+      "baths": 3.1,
+      "list_price": 1443862.71
+    },
+    {
+      "id": 265,
+      "street_address": "4410 Oak St",
+      "state": "NY",
+      "zip": "97058",
+      "sqft": 4590.48,
+      "beds": 2,
+      "baths": 3.7,
+      "list_price": 1844265.1
+    },
+    {
+      "id": 266,
+      "street_address": "6530 Main Ln",
+      "state": "GA",
+      "zip": "61201",
+      "sqft": 4772.09,
+      "beds": 5,
+      "baths": 3.2,
+      "list_price": 556817.75
+    },
+    {
+      "id": 267,
+      "street_address": "3128 Cedar Blvd",
+      "state": "GA",
+      "zip": "98688",
+      "sqft": 1896.59,
+      "beds": 3,
+      "baths": 2.9,
+      "list_price": 718921.04
+    },
+    {
+      "id": 268,
+      "street_address": "1291 Cedar St",
+      "state": "CA",
+      "zip": "93936",
+      "sqft": 4879.22,
+      "beds": 3,
+      "baths": 3.2,
+      "list_price": 730720.23
+    },
+    {
+      "id": 269,
+      "street_address": "8797 Oak Rd",
+      "state": "OH",
+      "zip": "28766",
+      "sqft": 2436.31,
+      "beds": 6,
+      "baths": 1.4,
+      "list_price": 1408001.62
+    },
+    {
+      "id": 270,
+      "street_address": "7420 Cedar Ave",
+      "state": "MI",
+      "zip": "27540",
+      "sqft": 4750.88,
+      "beds": 4,
+      "baths": 1.3,
+      "list_price": 1156097.08
+    },
+    {
+      "id": 271,
+      "street_address": "816 Main Ln",
+      "state": "TX",
+      "zip": "23803",
+      "sqft": 1563.69,
+      "beds": 4,
+      "baths": 3.3,
+      "list_price": 1367957.89
+    },
+    {
+      "id": 272,
+      "street_address": "8978 Cedar Rd",
+      "state": "NC",
+      "zip": "88470",
+      "sqft": 2761.09,
+      "beds": 3,
+      "baths": 3.0,
+      "list_price": 1890428.71
+    },
+    {
+      "id": 273,
+      "street_address": "9444 Cedar Blvd",
+      "state": "IL",
+      "zip": "90776",
+      "sqft": 2054.32,
+      "beds": 3,
+      "baths": 2.5,
+      "list_price": 1842505.35
+    },
+    {
+      "id": 274,
+      "street_address": "8794 Pine Ln",
+      "state": "PA",
+      "zip": "93254",
+      "sqft": 3197.7,
+      "beds": 4,
+      "baths": 4.0,
+      "list_price": 1993588.81
+    },
+    {
+      "id": 275,
+      "street_address": "3277 Main St",
+      "state": "FL",
+      "zip": "78758",
+      "sqft": 736.24,
+      "beds": 3,
+      "baths": 3.0,
+      "list_price": 673160.88
+    },
+    {
+      "id": 276,
+      "street_address": "9174 Maple Ln",
+      "state": "IL",
+      "zip": "93757",
+      "sqft": 1437.8,
+      "beds": 6,
+      "baths": 1.3,
+      "list_price": 618640.57
+    },
+    {
+      "id": 277,
+      "street_address": "7493 Cedar Ln",
+      "state": "TX",
+      "zip": "21988",
+      "sqft": 4535.93,
+      "beds": 5,
+      "baths": 4.6,
+      "list_price": 974977.03
+    },
+    {
+      "id": 278,
+      "street_address": "5266 Main St",
+      "state": "CA",
+      "zip": "44174",
+      "sqft": 1740.41,
+      "beds": 3,
+      "baths": 1.3,
+      "list_price": 1284352.88
+    },
+    {
+      "id": 279,
+      "street_address": "7295 Oak St",
+      "state": "GA",
+      "zip": "32403",
+      "sqft": 3316.48,
+      "beds": 4,
+      "baths": 1.7,
+      "list_price": 192530.01
+    },
+    {
+      "id": 280,
+      "street_address": "1944 Cedar Rd",
+      "state": "NY",
+      "zip": "19952",
+      "sqft": 874.57,
+      "beds": 6,
+      "baths": 3.5,
+      "list_price": 420188.57
+    },
+    {
+      "id": 281,
+      "street_address": "8474 Maple Rd",
+      "state": "PA",
+      "zip": "56741",
+      "sqft": 2095.39,
+      "beds": 5,
+      "baths": 1.3,
+      "list_price": 1469302.05
+    },
+    {
+      "id": 282,
+      "street_address": "2111 Cedar Ave",
+      "state": "GA",
+      "zip": "85279",
+      "sqft": 1761.6,
+      "beds": 1,
+      "baths": 3.6,
+      "list_price": 988786.56
+    },
+    {
+      "id": 283,
+      "street_address": "4182 Maple Ave",
+      "state": "TX",
+      "zip": "83140",
+      "sqft": 4949.84,
+      "beds": 2,
+      "baths": 3.8,
+      "list_price": 190653.01
+    },
+    {
+      "id": 284,
+      "street_address": "3724 Oak Ave",
+      "state": "MI",
+      "zip": "47458",
+      "sqft": 629.63,
+      "beds": 3,
+      "baths": 4.9,
+      "list_price": 1155993.72
+    },
+    {
+      "id": 285,
+      "street_address": "3133 Pine Rd",
+      "state": "FL",
+      "zip": "66336",
+      "sqft": 3859.49,
+      "beds": 6,
+      "baths": 2.9,
+      "list_price": 1607355.77
+    },
+    {
+      "id": 286,
+      "street_address": "9821 Pine Ln",
+      "state": "CA",
+      "zip": "26651",
+      "sqft": 4079.66,
+      "beds": 5,
+      "baths": 4.2,
+      "list_price": 1687061.15
+    },
+    {
+      "id": 287,
+      "street_address": "4529 Pine Ln",
+      "state": "TX",
+      "zip": "39539",
+      "sqft": 2045.94,
+      "beds": 2,
+      "baths": 1.6,
+      "list_price": 1150052.72
+    },
+    {
+      "id": 288,
+      "street_address": "9700 Pine St",
+      "state": "MI",
+      "zip": "92833",
+      "sqft": 3188.66,
+      "beds": 2,
+      "baths": 3.7,
+      "list_price": 1790439.69
+    },
+    {
+      "id": 289,
+      "street_address": "2109 Cedar Ave",
+      "state": "TX",
+      "zip": "25874",
+      "sqft": 727.36,
+      "beds": 2,
+      "baths": 1.3,
+      "list_price": 688704.38
+    },
+    {
+      "id": 290,
+      "street_address": "8278 Maple Ave",
+      "state": "OH",
+      "zip": "70136",
+      "sqft": 2318.28,
+      "beds": 1,
+      "baths": 1.1,
+      "list_price": 1318121.38
+    },
+    {
+      "id": 291,
+      "street_address": "5135 Oak St",
+      "state": "NC",
+      "zip": "92022",
+      "sqft": 943.47,
+      "beds": 5,
+      "baths": 1.9,
+      "list_price": 1568443.57
+    },
+    {
+      "id": 292,
+      "street_address": "2706 Oak Ln",
+      "state": "OH",
+      "zip": "93393",
+      "sqft": 1990.0,
+      "beds": 2,
+      "baths": 3.1,
+      "list_price": 173445.36
+    },
+    {
+      "id": 293,
+      "street_address": "8356 Pine Rd",
+      "state": "NC",
+      "zip": "96212",
+      "sqft": 2372.83,
+      "beds": 4,
+      "baths": 1.7,
+      "list_price": 761997.17
+    },
+    {
+      "id": 294,
+      "street_address": "4099 Cedar St",
+      "state": "FL",
+      "zip": "89175",
+      "sqft": 3122.99,
+      "beds": 3,
+      "baths": 3.4,
+      "list_price": 668518.89
+    },
+    {
+      "id": 295,
+      "street_address": "8033 Pine Blvd",
+      "state": "GA",
+      "zip": "63475",
+      "sqft": 4957.92,
+      "beds": 6,
+      "baths": 2.1,
+      "list_price": 1978121.77
+    },
+    {
+      "id": 296,
+      "street_address": "5303 Cedar Ln",
+      "state": "GA",
+      "zip": "23360",
+      "sqft": 4609.55,
+      "beds": 2,
+      "baths": 1.8,
+      "list_price": 899725.74
+    },
+    {
+      "id": 297,
+      "street_address": "6091 Maple Blvd",
+      "state": "GA",
+      "zip": "37723",
+      "sqft": 2669.8,
+      "beds": 6,
+      "baths": 1.7,
+      "list_price": 1963417.47
+    },
+    {
+      "id": 298,
+      "street_address": "2145 Cedar Blvd",
+      "state": "NY",
+      "zip": "71929",
+      "sqft": 1501.09,
+      "beds": 3,
+      "baths": 1.0,
+      "list_price": 1388162.32
+    },
+    {
+      "id": 299,
+      "street_address": "7152 Maple Blvd",
+      "state": "NC",
+      "zip": "50575",
+      "sqft": 2745.14,
+      "beds": 4,
+      "baths": 1.6,
+      "list_price": 1245406.97
+    },
+    {
+      "id": 300,
+      "street_address": "2085 Maple Ave",
+      "state": "FL",
+      "zip": "45355",
+      "sqft": 3995.41,
+      "beds": 2,
+      "baths": 3.4,
+      "list_price": 824299.71
+    },
+    {
+      "id": 301,
+      "street_address": "4043 Main Blvd",
+      "state": "MI",
+      "zip": "29107",
+      "sqft": 4763.58,
+      "beds": 2,
+      "baths": 3.3,
+      "list_price": 856996.08
+    },
+    {
+      "id": 302,
+      "street_address": "9187 Oak St",
+      "state": "FL",
+      "zip": "30339",
+      "sqft": 4624.08,
+      "beds": 2,
+      "baths": 4.7,
+      "list_price": 152655.5
+    },
+    {
+      "id": 303,
+      "street_address": "4683 Cedar Rd",
+      "state": "GA",
+      "zip": "32395",
+      "sqft": 3851.27,
+      "beds": 6,
+      "baths": 2.7,
+      "list_price": 664771.65
+    },
+    {
+      "id": 304,
+      "street_address": "3302 Main Ln",
+      "state": "FL",
+      "zip": "62337",
+      "sqft": 931.67,
+      "beds": 4,
+      "baths": 2.9,
+      "list_price": 1481400.36
+    },
+    {
+      "id": 305,
+      "street_address": "6722 Maple Ln",
+      "state": "FL",
+      "zip": "61732",
+      "sqft": 4883.91,
+      "beds": 3,
+      "baths": 3.1,
+      "list_price": 562918.04
+    },
+    {
+      "id": 306,
+      "street_address": "6648 Oak St",
+      "state": "TX",
+      "zip": "20208",
+      "sqft": 4741.95,
+      "beds": 6,
+      "baths": 2.5,
+      "list_price": 536300.24
+    },
+    {
+      "id": 307,
+      "street_address": "4945 Maple Ln",
+      "state": "CA",
+      "zip": "81206",
+      "sqft": 1825.63,
+      "beds": 5,
+      "baths": 4.2,
+      "list_price": 1970503.74
+    },
+    {
+      "id": 308,
+      "street_address": "4799 Maple Rd",
+      "state": "MI",
+      "zip": "72213",
+      "sqft": 1558.38,
+      "beds": 6,
+      "baths": 2.4,
+      "list_price": 1783706.88
+    },
+    {
+      "id": 309,
+      "street_address": "3038 Maple St",
+      "state": "NC",
+      "zip": "41874",
+      "sqft": 703.53,
+      "beds": 5,
+      "baths": 3.5,
+      "list_price": 1250365.34
+    },
+    {
+      "id": 310,
+      "street_address": "7967 Maple Blvd",
+      "state": "FL",
+      "zip": "70117",
+      "sqft": 3288.14,
+      "beds": 3,
+      "baths": 3.4,
+      "list_price": 176806.66
+    },
+    {
+      "id": 311,
+      "street_address": "6945 Cedar Ave",
+      "state": "NY",
+      "zip": "19816",
+      "sqft": 3746.0,
+      "beds": 6,
+      "baths": 1.1,
+      "list_price": 621905.9
+    },
+    {
+      "id": 312,
+      "street_address": "461 Pine Ln",
+      "state": "OH",
+      "zip": "39347",
+      "sqft": 3274.79,
+      "beds": 3,
+      "baths": 3.0,
+      "list_price": 1878973.96
+    },
+    {
+      "id": 313,
+      "street_address": "4328 Maple Ln",
+      "state": "FL",
+      "zip": "30905",
+      "sqft": 1747.58,
+      "beds": 2,
+      "baths": 4.1,
+      "list_price": 296557.0
+    },
+    {
+      "id": 314,
+      "street_address": "4158 Pine Ave",
+      "state": "TX",
+      "zip": "65029",
+      "sqft": 2934.13,
+      "beds": 4,
+      "baths": 3.3,
+      "list_price": 1687904.1
+    },
+    {
+      "id": 315,
+      "street_address": "4539 Maple Blvd",
+      "state": "PA",
+      "zip": "39402",
+      "sqft": 4535.29,
+      "beds": 5,
+      "baths": 1.5,
+      "list_price": 1353592.53
+    },
+    {
+      "id": 316,
+      "street_address": "122 Maple Ave",
+      "state": "OH",
+      "zip": "26358",
+      "sqft": 4567.05,
+      "beds": 1,
+      "baths": 3.7,
+      "list_price": 1865762.72
+    },
+    {
+      "id": 317,
+      "street_address": "8982 Maple Rd",
+      "state": "NY",
+      "zip": "18384",
+      "sqft": 1633.15,
+      "beds": 3,
+      "baths": 2.8,
+      "list_price": 896654.63
+    },
+    {
+      "id": 318,
+      "street_address": "9141 Cedar Ln",
+      "state": "MI",
+      "zip": "49977",
+      "sqft": 1938.54,
+      "beds": 6,
+      "baths": 2.9,
+      "list_price": 310555.61
+    },
+    {
+      "id": 319,
+      "street_address": "6578 Main Rd",
+      "state": "MI",
+      "zip": "97483",
+      "sqft": 630.12,
+      "beds": 4,
+      "baths": 1.7,
+      "list_price": 1478244.38
+    },
+    {
+      "id": 320,
+      "street_address": "6745 Pine Ave",
+      "state": "GA",
+      "zip": "98299",
+      "sqft": 2949.09,
+      "beds": 2,
+      "baths": 1.4,
+      "list_price": 449949.48
+    },
+    {
+      "id": 321,
+      "street_address": "5707 Maple Rd",
+      "state": "TX",
+      "zip": "42361",
+      "sqft": 3628.29,
+      "beds": 6,
+      "baths": 2.2,
+      "list_price": 309656.72
+    },
+    {
+      "id": 322,
+      "street_address": "1033 Main Ave",
+      "state": "FL",
+      "zip": "85507",
+      "sqft": 3316.3,
+      "beds": 6,
+      "baths": 1.8,
+      "list_price": 892935.4
+    },
+    {
+      "id": 323,
+      "street_address": "4927 Pine St",
+      "state": "NC",
+      "zip": "28633",
+      "sqft": 4078.76,
+      "beds": 1,
+      "baths": 4.2,
+      "list_price": 1931937.27
+    },
+    {
+      "id": 324,
+      "street_address": "9336 Pine St",
+      "state": "GA",
+      "zip": "43573",
+      "sqft": 1359.67,
+      "beds": 4,
+      "baths": 1.5,
+      "list_price": 293223.43
+    },
+    {
+      "id": 325,
+      "street_address": "8826 Pine St",
+      "state": "TX",
+      "zip": "59877",
+      "sqft": 3924.57,
+      "beds": 1,
+      "baths": 3.2,
+      "list_price": 326419.66
+    },
+    {
+      "id": 326,
+      "street_address": "6808 Oak St",
+      "state": "OH",
+      "zip": "90063",
+      "sqft": 3702.33,
+      "beds": 2,
+      "baths": 2.8,
+      "list_price": 500463.87
+    },
+    {
+      "id": 327,
+      "street_address": "1046 Main Ln",
+      "state": "NC",
+      "zip": "33619",
+      "sqft": 1131.62,
+      "beds": 5,
+      "baths": 4.2,
+      "list_price": 1293583.67
+    },
+    {
+      "id": 328,
+      "street_address": "4180 Main Ln",
+      "state": "NC",
+      "zip": "52408",
+      "sqft": 2147.36,
+      "beds": 6,
+      "baths": 2.4,
+      "list_price": 439556.03
+    },
+    {
+      "id": 329,
+      "street_address": "3580 Cedar Rd",
+      "state": "OH",
+      "zip": "13017",
+      "sqft": 3096.25,
+      "beds": 5,
+      "baths": 3.6,
+      "list_price": 646666.67
+    },
+    {
+      "id": 330,
+      "street_address": "4574 Cedar Ave",
+      "state": "MI",
+      "zip": "70177",
+      "sqft": 4298.43,
+      "beds": 2,
+      "baths": 3.3,
+      "list_price": 750608.58
+    },
+    {
+      "id": 331,
+      "street_address": "1721 Pine Rd",
+      "state": "MI",
+      "zip": "21511",
+      "sqft": 4805.42,
+      "beds": 6,
+      "baths": 1.2,
+      "list_price": 466162.82
+    },
+    {
+      "id": 332,
+      "street_address": "3421 Oak St",
+      "state": "FL",
+      "zip": "96371",
+      "sqft": 4681.99,
+      "beds": 6,
+      "baths": 4.0,
+      "list_price": 1246299.56
+    },
+    {
+      "id": 333,
+      "street_address": "9429 Pine Ave",
+      "state": "OH",
+      "zip": "60278",
+      "sqft": 3906.5,
+      "beds": 5,
+      "baths": 2.8,
+      "list_price": 1944742.85
+    },
+    {
+      "id": 334,
+      "street_address": "5018 Oak Blvd",
+      "state": "OH",
+      "zip": "36232",
+      "sqft": 2630.26,
+      "beds": 4,
+      "baths": 2.5,
+      "list_price": 1388890.55
+    },
+    {
+      "id": 335,
+      "street_address": "4818 Main Ave",
+      "state": "IL",
+      "zip": "87040",
+      "sqft": 1657.06,
+      "beds": 5,
+      "baths": 1.4,
+      "list_price": 1328691.43
+    },
+    {
+      "id": 336,
+      "street_address": "6719 Main Blvd",
+      "state": "FL",
+      "zip": "44580",
+      "sqft": 4074.18,
+      "beds": 4,
+      "baths": 3.1,
+      "list_price": 1886808.52
+    },
+    {
+      "id": 337,
+      "street_address": "5400 Cedar St",
+      "state": "IL",
+      "zip": "35327",
+      "sqft": 1155.76,
+      "beds": 3,
+      "baths": 1.8,
+      "list_price": 1278080.26
+    },
+    {
+      "id": 338,
+      "street_address": "4648 Cedar Ave",
+      "state": "IL",
+      "zip": "18030",
+      "sqft": 3631.75,
+      "beds": 6,
+      "baths": 4.9,
+      "list_price": 336484.72
+    },
+    {
+      "id": 339,
+      "street_address": "1804 Pine Ave",
+      "state": "NY",
+      "zip": "74378",
+      "sqft": 3412.48,
+      "beds": 6,
+      "baths": 4.4,
+      "list_price": 1104610.89
+    },
+    {
+      "id": 340,
+      "street_address": "2960 Main Ave",
+      "state": "NY",
+      "zip": "56078",
+      "sqft": 3647.65,
+      "beds": 3,
+      "baths": 2.4,
+      "list_price": 410881.91
+    },
+    {
+      "id": 341,
+      "street_address": "4788 Oak Rd",
+      "state": "GA",
+      "zip": "60372",
+      "sqft": 747.12,
+      "beds": 3,
+      "baths": 2.0,
+      "list_price": 1866660.18
+    },
+    {
+      "id": 342,
+      "street_address": "2392 Main Ave",
+      "state": "NC",
+      "zip": "95367",
+      "sqft": 1362.69,
+      "beds": 4,
+      "baths": 4.2,
+      "list_price": 1401019.21
+    },
+    {
+      "id": 343,
+      "street_address": "7623 Main Ln",
+      "state": "FL",
+      "zip": "42124",
+      "sqft": 4425.26,
+      "beds": 5,
+      "baths": 4.1,
+      "list_price": 575242.26
+    },
+    {
+      "id": 344,
+      "street_address": "9365 Pine St",
+      "state": "OH",
+      "zip": "82381",
+      "sqft": 1204.29,
+      "beds": 1,
+      "baths": 1.3,
+      "list_price": 311036.83
+    },
+    {
+      "id": 345,
+      "street_address": "4593 Main Ln",
+      "state": "NY",
+      "zip": "90551",
+      "sqft": 805.93,
+      "beds": 4,
+      "baths": 2.4,
+      "list_price": 661929.72
+    },
+    {
+      "id": 346,
+      "street_address": "7579 Cedar Ave",
+      "state": "CA",
+      "zip": "89146",
+      "sqft": 2709.66,
+      "beds": 2,
+      "baths": 4.4,
+      "list_price": 550999.49
+    },
+    {
+      "id": 347,
+      "street_address": "6442 Pine Ave",
+      "state": "OH",
+      "zip": "37004",
+      "sqft": 4451.19,
+      "beds": 1,
+      "baths": 2.3,
+      "list_price": 1227095.92
+    },
+    {
+      "id": 348,
+      "street_address": "9353 Pine Ln",
+      "state": "MI",
+      "zip": "47519",
+      "sqft": 755.9,
+      "beds": 6,
+      "baths": 4.7,
+      "list_price": 873955.75
+    },
+    {
+      "id": 349,
+      "street_address": "7020 Cedar Ave",
+      "state": "MI",
+      "zip": "61595",
+      "sqft": 4013.17,
+      "beds": 2,
+      "baths": 1.0,
+      "list_price": 1593304.51
+    },
+    {
+      "id": 350,
+      "street_address": "6786 Main Rd",
+      "state": "OH",
+      "zip": "13473",
+      "sqft": 2143.73,
+      "beds": 6,
+      "baths": 3.4,
+      "list_price": 465469.4
+    },
+    {
+      "id": 351,
+      "street_address": "4536 Cedar Blvd",
+      "state": "MI",
+      "zip": "36570",
+      "sqft": 1991.51,
+      "beds": 2,
+      "baths": 2.4,
+      "list_price": 1185187.74
+    },
+    {
+      "id": 352,
+      "street_address": "5175 Maple Ln",
+      "state": "NY",
+      "zip": "54246",
+      "sqft": 1643.68,
+      "beds": 3,
+      "baths": 2.0,
+      "list_price": 366854.65
+    },
+    {
+      "id": 353,
+      "street_address": "4120 Maple Ave",
+      "state": "OH",
+      "zip": "78824",
+      "sqft": 1595.89,
+      "beds": 3,
+      "baths": 2.3,
+      "list_price": 1785319.39
+    },
+    {
+      "id": 354,
+      "street_address": "9957 Maple Ave",
+      "state": "IL",
+      "zip": "35869",
+      "sqft": 1476.07,
+      "beds": 1,
+      "baths": 2.2,
+      "list_price": 1594942.76
+    },
+    {
+      "id": 355,
+      "street_address": "2841 Pine Ln",
+      "state": "NY",
+      "zip": "83448",
+      "sqft": 3764.22,
+      "beds": 2,
+      "baths": 4.3,
+      "list_price": 467396.79
+    },
+    {
+      "id": 356,
+      "street_address": "8141 Maple Rd",
+      "state": "PA",
+      "zip": "76805",
+      "sqft": 4609.99,
+      "beds": 4,
+      "baths": 3.0,
+      "list_price": 1640347.48
+    },
+    {
+      "id": 357,
+      "street_address": "898 Maple Blvd",
+      "state": "CA",
+      "zip": "10766",
+      "sqft": 3029.13,
+      "beds": 4,
+      "baths": 2.2,
+      "list_price": 1739035.03
+    },
+    {
+      "id": 358,
+      "street_address": "2717 Maple Ave",
+      "state": "TX",
+      "zip": "52012",
+      "sqft": 1636.6,
+      "beds": 6,
+      "baths": 1.9,
+      "list_price": 566376.14
+    },
+    {
+      "id": 359,
+      "street_address": "5251 Main Ln",
+      "state": "NY",
+      "zip": "50589",
+      "sqft": 2993.77,
+      "beds": 2,
+      "baths": 1.8,
+      "list_price": 1975118.43
+    },
+    {
+      "id": 360,
+      "street_address": "1341 Oak St",
+      "state": "PA",
+      "zip": "56154",
+      "sqft": 3085.45,
+      "beds": 4,
+      "baths": 4.8,
+      "list_price": 893051.04
+    },
+    {
+      "id": 361,
+      "street_address": "2950 Maple St",
+      "state": "IL",
+      "zip": "68528",
+      "sqft": 1797.83,
+      "beds": 2,
+      "baths": 3.9,
+      "list_price": 1496496.15
+    },
+    {
+      "id": 362,
+      "street_address": "2528 Main Rd",
+      "state": "IL",
+      "zip": "59228",
+      "sqft": 3739.29,
+      "beds": 5,
+      "baths": 1.9,
+      "list_price": 1473217.35
+    },
+    {
+      "id": 363,
+      "street_address": "5414 Maple Ave",
+      "state": "GA",
+      "zip": "39339",
+      "sqft": 3118.93,
+      "beds": 6,
+      "baths": 4.8,
+      "list_price": 732673.26
+    },
+    {
+      "id": 364,
+      "street_address": "8528 Pine Blvd",
+      "state": "MI",
+      "zip": "10741",
+      "sqft": 1353.21,
+      "beds": 3,
+      "baths": 1.5,
+      "list_price": 929293.26
+    },
+    {
+      "id": 365,
+      "street_address": "6489 Cedar Ave",
+      "state": "IL",
+      "zip": "19500",
+      "sqft": 1766.39,
+      "beds": 3,
+      "baths": 1.7,
+      "list_price": 947139.66
+    },
+    {
+      "id": 366,
+      "street_address": "8169 Oak Blvd",
+      "state": "CA",
+      "zip": "45052",
+      "sqft": 3908.99,
+      "beds": 1,
+      "baths": 1.5,
+      "list_price": 1786071.0
+    },
+    {
+      "id": 367,
+      "street_address": "1878 Oak St",
+      "state": "TX",
+      "zip": "16094",
+      "sqft": 4521.08,
+      "beds": 3,
+      "baths": 1.8,
+      "list_price": 1047795.51
+    },
+    {
+      "id": 368,
+      "street_address": "8827 Cedar St",
+      "state": "CA",
+      "zip": "59107",
+      "sqft": 709.71,
+      "beds": 5,
+      "baths": 2.9,
+      "list_price": 187800.98
+    },
+    {
+      "id": 369,
+      "street_address": "382 Oak Ave",
+      "state": "TX",
+      "zip": "63688",
+      "sqft": 4916.11,
+      "beds": 2,
+      "baths": 2.0,
+      "list_price": 467481.79
+    },
+    {
+      "id": 370,
+      "street_address": "6203 Oak Ave",
+      "state": "OH",
+      "zip": "40281",
+      "sqft": 1713.7,
+      "beds": 2,
+      "baths": 1.5,
+      "list_price": 301086.86
+    },
+    {
+      "id": 371,
+      "street_address": "7399 Pine St",
+      "state": "TX",
+      "zip": "47335",
+      "sqft": 654.22,
+      "beds": 5,
+      "baths": 2.2,
+      "list_price": 1782670.85
+    },
+    {
+      "id": 372,
+      "street_address": "2227 Maple Ln",
+      "state": "IL",
+      "zip": "70123",
+      "sqft": 2195.87,
+      "beds": 6,
+      "baths": 2.5,
+      "list_price": 359388.82
+    },
+    {
+      "id": 373,
+      "street_address": "517 Pine Blvd",
+      "state": "GA",
+      "zip": "82278",
+      "sqft": 4458.55,
+      "beds": 1,
+      "baths": 3.6,
+      "list_price": 1830879.15
+    },
+    {
+      "id": 374,
+      "street_address": "8688 Pine Ave",
+      "state": "GA",
+      "zip": "73444",
+      "sqft": 3168.71,
+      "beds": 2,
+      "baths": 3.4,
+      "list_price": 541059.64
+    },
+    {
+      "id": 375,
+      "street_address": "6528 Cedar Rd",
+      "state": "NY",
+      "zip": "78308",
+      "sqft": 3191.88,
+      "beds": 3,
+      "baths": 1.6,
+      "list_price": 971789.95
+    },
+    {
+      "id": 376,
+      "street_address": "5688 Main Blvd",
+      "state": "IL",
+      "zip": "99899",
+      "sqft": 4977.25,
+      "beds": 3,
+      "baths": 3.0,
+      "list_price": 1540144.83
+    },
+    {
+      "id": 377,
+      "street_address": "3205 Pine St",
+      "state": "FL",
+      "zip": "40586",
+      "sqft": 4367.09,
+      "beds": 3,
+      "baths": 5.0,
+      "list_price": 1267238.81
+    },
+    {
+      "id": 378,
+      "street_address": "5943 Oak Rd",
+      "state": "MI",
+      "zip": "19326",
+      "sqft": 4039.46,
+      "beds": 2,
+      "baths": 2.9,
+      "list_price": 1689314.94
+    },
+    {
+      "id": 379,
+      "street_address": "7358 Oak Blvd",
+      "state": "MI",
+      "zip": "85253",
+      "sqft": 2040.58,
+      "beds": 2,
+      "baths": 4.8,
+      "list_price": 1839781.95
+    },
+    {
+      "id": 380,
+      "street_address": "2359 Oak Ln",
+      "state": "IL",
+      "zip": "85796",
+      "sqft": 3679.37,
+      "beds": 1,
+      "baths": 1.4,
+      "list_price": 903974.41
+    },
+    {
+      "id": 381,
+      "street_address": "9618 Oak Ln",
+      "state": "TX",
+      "zip": "30471",
+      "sqft": 2629.95,
+      "beds": 1,
+      "baths": 3.6,
+      "list_price": 473775.02
+    },
+    {
+      "id": 382,
+      "street_address": "7451 Oak Blvd",
+      "state": "TX",
+      "zip": "14924",
+      "sqft": 1178.75,
+      "beds": 1,
+      "baths": 2.1,
+      "list_price": 583586.49
+    },
+    {
+      "id": 383,
+      "street_address": "8106 Main Ave",
+      "state": "NY",
+      "zip": "24073",
+      "sqft": 4292.44,
+      "beds": 5,
+      "baths": 2.6,
+      "list_price": 460171.17
+    },
+    {
+      "id": 384,
+      "street_address": "1578 Pine Blvd",
+      "state": "IL",
+      "zip": "13201",
+      "sqft": 1265.05,
+      "beds": 5,
+      "baths": 1.8,
+      "list_price": 869447.84
+    },
+    {
+      "id": 385,
+      "street_address": "2407 Pine Ave",
+      "state": "IL",
+      "zip": "91619",
+      "sqft": 2487.39,
+      "beds": 6,
+      "baths": 2.7,
+      "list_price": 169504.24
+    },
+    {
+      "id": 386,
+      "street_address": "282 Maple Ln",
+      "state": "GA",
+      "zip": "96335",
+      "sqft": 3603.7,
+      "beds": 5,
+      "baths": 3.6,
+      "list_price": 1762278.98
+    },
+    {
+      "id": 387,
+      "street_address": "2533 Pine Rd",
+      "state": "TX",
+      "zip": "60281",
+      "sqft": 4646.35,
+      "beds": 4,
+      "baths": 2.4,
+      "list_price": 1375530.81
+    },
+    {
+      "id": 388,
+      "street_address": "893 Main Ln",
+      "state": "PA",
+      "zip": "55944",
+      "sqft": 4693.83,
+      "beds": 5,
+      "baths": 2.1,
+      "list_price": 886518.17
+    },
+    {
+      "id": 389,
+      "street_address": "4937 Maple St",
+      "state": "NY",
+      "zip": "75264",
+      "sqft": 1964.59,
+      "beds": 3,
+      "baths": 4.3,
+      "list_price": 465195.99
+    },
+    {
+      "id": 390,
+      "street_address": "7958 Maple Ln",
+      "state": "FL",
+      "zip": "12880",
+      "sqft": 3391.88,
+      "beds": 5,
+      "baths": 4.6,
+      "list_price": 1790726.26
+    },
+    {
+      "id": 391,
+      "street_address": "3741 Maple Ln",
+      "state": "FL",
+      "zip": "82052",
+      "sqft": 2482.93,
+      "beds": 2,
+      "baths": 2.6,
+      "list_price": 1977118.25
+    },
+    {
+      "id": 392,
+      "street_address": "4058 Cedar Ave",
+      "state": "TX",
+      "zip": "84796",
+      "sqft": 4639.56,
+      "beds": 3,
+      "baths": 4.5,
+      "list_price": 1007829.04
+    },
+    {
+      "id": 393,
+      "street_address": "3283 Main Blvd",
+      "state": "GA",
+      "zip": "13587",
+      "sqft": 4708.34,
+      "beds": 4,
+      "baths": 2.9,
+      "list_price": 945801.1
+    },
+    {
+      "id": 394,
+      "street_address": "4590 Main Blvd",
+      "state": "GA",
+      "zip": "28015",
+      "sqft": 3905.29,
+      "beds": 3,
+      "baths": 1.8,
+      "list_price": 106051.91
+    },
+    {
+      "id": 395,
+      "street_address": "856 Pine Ln",
+      "state": "NC",
+      "zip": "72368",
+      "sqft": 4265.92,
+      "beds": 5,
+      "baths": 1.2,
+      "list_price": 417712.38
+    },
+    {
+      "id": 396,
+      "street_address": "1110 Pine Rd",
+      "state": "TX",
+      "zip": "96199",
+      "sqft": 2796.8,
+      "beds": 6,
+      "baths": 2.2,
+      "list_price": 991067.55
+    },
+    {
+      "id": 397,
+      "street_address": "8434 Maple St",
+      "state": "CA",
+      "zip": "78802",
+      "sqft": 2215.18,
+      "beds": 1,
+      "baths": 2.4,
+      "list_price": 938987.12
+    },
+    {
+      "id": 398,
+      "street_address": "4091 Oak Ave",
+      "state": "MI",
+      "zip": "54608",
+      "sqft": 3144.82,
+      "beds": 2,
+      "baths": 3.6,
+      "list_price": 1701778.92
+    },
+    {
+      "id": 399,
+      "street_address": "112 Pine Ave",
+      "state": "CA",
+      "zip": "90173",
+      "sqft": 3963.57,
+      "beds": 3,
+      "baths": 4.5,
+      "list_price": 1871821.13
+    },
+    {
+      "id": 400,
+      "street_address": "2625 Pine Ave",
+      "state": "FL",
+      "zip": "20735",
+      "sqft": 1504.12,
+      "beds": 1,
+      "baths": 3.8,
+      "list_price": 885585.47
+    },
+    {
+      "id": 401,
+      "street_address": "8693 Pine St",
+      "state": "OH",
+      "zip": "73349",
+      "sqft": 934.54,
+      "beds": 3,
+      "baths": 4.1,
+      "list_price": 226519.33
+    },
+    {
+      "id": 402,
+      "street_address": "5662 Cedar Ave",
+      "state": "NY",
+      "zip": "95459",
+      "sqft": 4913.28,
+      "beds": 1,
+      "baths": 2.9,
+      "list_price": 119209.19
+    },
+    {
+      "id": 403,
+      "street_address": "6288 Main Blvd",
+      "state": "PA",
+      "zip": "98925",
+      "sqft": 1935.05,
+      "beds": 2,
+      "baths": 2.0,
+      "list_price": 313355.45
+    },
+    {
+      "id": 404,
+      "street_address": "9021 Main Ln",
+      "state": "FL",
+      "zip": "90242",
+      "sqft": 1557.67,
+      "beds": 4,
+      "baths": 1.4,
+      "list_price": 527025.14
+    },
+    {
+      "id": 405,
+      "street_address": "3533 Maple Rd",
+      "state": "FL",
+      "zip": "57283",
+      "sqft": 4231.3,
+      "beds": 5,
+      "baths": 1.1,
+      "list_price": 1362151.72
+    },
+    {
+      "id": 406,
+      "street_address": "8522 Pine Rd",
+      "state": "NC",
+      "zip": "56132",
+      "sqft": 3350.84,
+      "beds": 6,
+      "baths": 4.4,
+      "list_price": 1025445.92
+    },
+    {
+      "id": 407,
+      "street_address": "8159 Main Blvd",
+      "state": "CA",
+      "zip": "38405",
+      "sqft": 2533.04,
+      "beds": 5,
+      "baths": 4.5,
+      "list_price": 1786115.7
+    },
+    {
+      "id": 408,
+      "street_address": "3718 Cedar Ln",
+      "state": "GA",
+      "zip": "43256",
+      "sqft": 4613.34,
+      "beds": 3,
+      "baths": 3.7,
+      "list_price": 1834974.23
+    },
+    {
+      "id": 409,
+      "street_address": "4304 Pine Blvd",
+      "state": "MI",
+      "zip": "82928",
+      "sqft": 2913.74,
+      "beds": 2,
+      "baths": 4.0,
+      "list_price": 670812.47
+    },
+    {
+      "id": 410,
+      "street_address": "6018 Pine Ln",
+      "state": "NY",
+      "zip": "92170",
+      "sqft": 2183.94,
+      "beds": 6,
+      "baths": 1.9,
+      "list_price": 122231.88
+    },
+    {
+      "id": 411,
+      "street_address": "4377 Main Rd",
+      "state": "GA",
+      "zip": "26804",
+      "sqft": 3249.93,
+      "beds": 3,
+      "baths": 5.0,
+      "list_price": 1633306.35
+    },
+    {
+      "id": 412,
+      "street_address": "7061 Pine Blvd",
+      "state": "OH",
+      "zip": "35351",
+      "sqft": 4886.09,
+      "beds": 3,
+      "baths": 3.1,
+      "list_price": 268850.36
+    },
+    {
+      "id": 413,
+      "street_address": "8531 Main Blvd",
+      "state": "OH",
+      "zip": "16826",
+      "sqft": 1907.8,
+      "beds": 2,
+      "baths": 1.4,
+      "list_price": 455183.29
+    },
+    {
+      "id": 414,
+      "street_address": "7628 Oak Blvd",
+      "state": "IL",
+      "zip": "96348",
+      "sqft": 1505.73,
+      "beds": 1,
+      "baths": 1.1,
+      "list_price": 1554083.15
+    },
+    {
+      "id": 415,
+      "street_address": "8960 Oak St",
+      "state": "NY",
+      "zip": "99602",
+      "sqft": 3201.83,
+      "beds": 5,
+      "baths": 3.4,
+      "list_price": 696679.43
+    },
+    {
+      "id": 416,
+      "street_address": "7980 Cedar Ave",
+      "state": "FL",
+      "zip": "54264",
+      "sqft": 2431.63,
+      "beds": 6,
+      "baths": 4.6,
+      "list_price": 809906.24
+    },
+    {
+      "id": 417,
+      "street_address": "7332 Pine Rd",
+      "state": "TX",
+      "zip": "24631",
+      "sqft": 4856.08,
+      "beds": 4,
+      "baths": 2.1,
+      "list_price": 154872.19
+    },
+    {
+      "id": 418,
+      "street_address": "9276 Cedar Rd",
+      "state": "PA",
+      "zip": "92973",
+      "sqft": 4840.03,
+      "beds": 6,
+      "baths": 1.9,
+      "list_price": 310115.97
+    },
+    {
+      "id": 419,
+      "street_address": "9584 Cedar Ln",
+      "state": "MI",
+      "zip": "96492",
+      "sqft": 4331.99,
+      "beds": 2,
+      "baths": 4.4,
+      "list_price": 412509.35
+    },
+    {
+      "id": 420,
+      "street_address": "3657 Main Ave",
+      "state": "PA",
+      "zip": "90292",
+      "sqft": 2869.74,
+      "beds": 1,
+      "baths": 2.0,
+      "list_price": 1893742.51
+    },
+    {
+      "id": 421,
+      "street_address": "524 Main St",
+      "state": "TX",
+      "zip": "23393",
+      "sqft": 3196.46,
+      "beds": 6,
+      "baths": 3.5,
+      "list_price": 214411.7
+    },
+    {
+      "id": 422,
+      "street_address": "1427 Cedar Ave",
+      "state": "IL",
+      "zip": "30814",
+      "sqft": 4298.57,
+      "beds": 5,
+      "baths": 1.1,
+      "list_price": 1355154.97
+    },
+    {
+      "id": 423,
+      "street_address": "8557 Cedar Ave",
+      "state": "PA",
+      "zip": "29622",
+      "sqft": 3270.08,
+      "beds": 5,
+      "baths": 4.1,
+      "list_price": 361891.23
+    },
+    {
+      "id": 424,
+      "street_address": "1917 Pine St",
+      "state": "OH",
+      "zip": "52100",
+      "sqft": 3775.56,
+      "beds": 5,
+      "baths": 3.3,
+      "list_price": 672558.13
+    },
+    {
+      "id": 425,
+      "street_address": "4029 Main St",
+      "state": "MI",
+      "zip": "51824",
+      "sqft": 2027.0,
+      "beds": 6,
+      "baths": 2.7,
+      "list_price": 798128.92
+    },
+    {
+      "id": 426,
+      "street_address": "8325 Cedar Ln",
+      "state": "NY",
+      "zip": "66980",
+      "sqft": 3667.28,
+      "beds": 3,
+      "baths": 3.0,
+      "list_price": 791682.41
+    },
+    {
+      "id": 427,
+      "street_address": "2019 Oak Ave",
+      "state": "FL",
+      "zip": "21400",
+      "sqft": 3163.97,
+      "beds": 4,
+      "baths": 2.6,
+      "list_price": 887403.64
+    },
+    {
+      "id": 428,
+      "street_address": "355 Oak Ave",
+      "state": "FL",
+      "zip": "81278",
+      "sqft": 3719.2,
+      "beds": 2,
+      "baths": 3.1,
+      "list_price": 621906.49
+    },
+    {
+      "id": 429,
+      "street_address": "2881 Maple Ln",
+      "state": "CA",
+      "zip": "90517",
+      "sqft": 920.01,
+      "beds": 1,
+      "baths": 4.4,
+      "list_price": 987233.6
+    },
+    {
+      "id": 430,
+      "street_address": "6170 Pine Ave",
+      "state": "PA",
+      "zip": "93384",
+      "sqft": 689.9,
+      "beds": 6,
+      "baths": 3.6,
+      "list_price": 1586413.64
+    },
+    {
+      "id": 431,
+      "street_address": "1432 Pine Rd",
+      "state": "FL",
+      "zip": "13753",
+      "sqft": 2076.06,
+      "beds": 5,
+      "baths": 3.7,
+      "list_price": 1205453.2
+    },
+    {
+      "id": 432,
+      "street_address": "5017 Oak Ave",
+      "state": "GA",
+      "zip": "24329",
+      "sqft": 508.42,
+      "beds": 3,
+      "baths": 4.4,
+      "list_price": 1175267.15
+    },
+    {
+      "id": 433,
+      "street_address": "9790 Main Blvd",
+      "state": "FL",
+      "zip": "90219",
+      "sqft": 654.55,
+      "beds": 3,
+      "baths": 3.6,
+      "list_price": 980549.25
+    },
+    {
+      "id": 434,
+      "street_address": "3800 Oak Rd",
+      "state": "MI",
+      "zip": "69260",
+      "sqft": 4606.31,
+      "beds": 6,
+      "baths": 3.3,
+      "list_price": 1067373.96
+    },
+    {
+      "id": 435,
+      "street_address": "4297 Cedar St",
+      "state": "NY",
+      "zip": "47190",
+      "sqft": 725.86,
+      "beds": 2,
+      "baths": 1.1,
+      "list_price": 522780.94
+    },
+    {
+      "id": 436,
+      "street_address": "8348 Maple Rd",
+      "state": "NC",
+      "zip": "10563",
+      "sqft": 679.11,
+      "beds": 4,
+      "baths": 1.2,
+      "list_price": 346953.14
+    },
+    {
+      "id": 437,
+      "street_address": "2341 Maple Ave",
+      "state": "TX",
+      "zip": "55030",
+      "sqft": 3324.78,
+      "beds": 5,
+      "baths": 1.1,
+      "list_price": 1146151.59
+    },
+    {
+      "id": 438,
+      "street_address": "1638 Main Blvd",
+      "state": "NC",
+      "zip": "42506",
+      "sqft": 2363.14,
+      "beds": 3,
+      "baths": 4.2,
+      "list_price": 1136648.93
+    },
+    {
+      "id": 439,
+      "street_address": "5908 Maple Ln",
+      "state": "CA",
+      "zip": "20476",
+      "sqft": 3681.64,
+      "beds": 6,
+      "baths": 1.7,
+      "list_price": 105271.26
+    },
+    {
+      "id": 440,
+      "street_address": "1147 Pine St",
+      "state": "MI",
+      "zip": "44542",
+      "sqft": 690.0,
+      "beds": 4,
+      "baths": 1.3,
+      "list_price": 1154532.64
+    },
+    {
+      "id": 441,
+      "street_address": "5030 Pine St",
+      "state": "OH",
+      "zip": "40201",
+      "sqft": 2176.77,
+      "beds": 4,
+      "baths": 2.3,
+      "list_price": 581269.66
+    },
+    {
+      "id": 442,
+      "street_address": "6552 Maple Rd",
+      "state": "PA",
+      "zip": "64701",
+      "sqft": 2844.8,
+      "beds": 2,
+      "baths": 3.5,
+      "list_price": 1528224.01
+    },
+    {
+      "id": 443,
+      "street_address": "2586 Cedar Rd",
+      "state": "CA",
+      "zip": "61532",
+      "sqft": 1900.28,
+      "beds": 1,
+      "baths": 2.9,
+      "list_price": 1821282.66
+    },
+    {
+      "id": 444,
+      "street_address": "9376 Pine St",
+      "state": "PA",
+      "zip": "72356",
+      "sqft": 3620.3,
+      "beds": 6,
+      "baths": 4.2,
+      "list_price": 347348.69
+    },
+    {
+      "id": 445,
+      "street_address": "5633 Cedar Ln",
+      "state": "TX",
+      "zip": "89918",
+      "sqft": 1757.59,
+      "beds": 6,
+      "baths": 2.8,
+      "list_price": 112152.01
+    },
+    {
+      "id": 446,
+      "street_address": "6530 Pine Ln",
+      "state": "FL",
+      "zip": "22234",
+      "sqft": 521.0,
+      "beds": 6,
+      "baths": 3.3,
+      "list_price": 351951.58
+    },
+    {
+      "id": 447,
+      "street_address": "6048 Oak Blvd",
+      "state": "OH",
+      "zip": "18987",
+      "sqft": 1208.88,
+      "beds": 1,
+      "baths": 2.0,
+      "list_price": 1824759.58
+    },
+    {
+      "id": 448,
+      "street_address": "2733 Cedar Rd",
+      "state": "FL",
+      "zip": "33319",
+      "sqft": 4074.69,
+      "beds": 6,
+      "baths": 2.2,
+      "list_price": 1382302.92
+    },
+    {
+      "id": 449,
+      "street_address": "5896 Main St",
+      "state": "OH",
+      "zip": "40390",
+      "sqft": 3254.28,
+      "beds": 4,
+      "baths": 4.0,
+      "list_price": 1712939.0
+    },
+    {
+      "id": 450,
+      "street_address": "135 Oak Blvd",
+      "state": "IL",
+      "zip": "87266",
+      "sqft": 4903.86,
+      "beds": 1,
+      "baths": 3.3,
+      "list_price": 1342214.91
+    },
+    {
+      "id": 451,
+      "street_address": "9870 Pine Ave",
+      "state": "NY",
+      "zip": "73764",
+      "sqft": 3036.75,
+      "beds": 1,
+      "baths": 3.1,
+      "list_price": 1544235.58
+    },
+    {
+      "id": 452,
+      "street_address": "1067 Maple Ln",
+      "state": "GA",
+      "zip": "25396",
+      "sqft": 3379.69,
+      "beds": 6,
+      "baths": 2.6,
+      "list_price": 1531095.31
+    },
+    {
+      "id": 453,
+      "street_address": "1608 Oak Ave",
+      "state": "IL",
+      "zip": "13222",
+      "sqft": 3462.67,
+      "beds": 5,
+      "baths": 2.6,
+      "list_price": 842395.88
+    },
+    {
+      "id": 454,
+      "street_address": "5328 Pine Blvd",
+      "state": "GA",
+      "zip": "34898",
+      "sqft": 2181.82,
+      "beds": 1,
+      "baths": 2.5,
+      "list_price": 544872.05
+    },
+    {
+      "id": 455,
+      "street_address": "8414 Main Ln",
+      "state": "PA",
+      "zip": "12011",
+      "sqft": 2840.22,
+      "beds": 3,
+      "baths": 1.7,
+      "list_price": 152006.47
+    },
+    {
+      "id": 456,
+      "street_address": "6591 Oak Ln",
+      "state": "FL",
+      "zip": "71991",
+      "sqft": 3510.87,
+      "beds": 5,
+      "baths": 3.3,
+      "list_price": 802686.8
+    },
+    {
+      "id": 457,
+      "street_address": "7794 Cedar St",
+      "state": "MI",
+      "zip": "80672",
+      "sqft": 1149.95,
+      "beds": 4,
+      "baths": 3.9,
+      "list_price": 549289.82
+    },
+    {
+      "id": 458,
+      "street_address": "8406 Main Ave",
+      "state": "FL",
+      "zip": "97987",
+      "sqft": 1285.32,
+      "beds": 4,
+      "baths": 3.9,
+      "list_price": 1417975.83
+    },
+    {
+      "id": 459,
+      "street_address": "7918 Main Blvd",
+      "state": "GA",
+      "zip": "45949",
+      "sqft": 4340.83,
+      "beds": 3,
+      "baths": 5.0,
+      "list_price": 1618129.06
+    },
+    {
+      "id": 460,
+      "street_address": "7774 Maple Ln",
+      "state": "PA",
+      "zip": "25744",
+      "sqft": 4069.33,
+      "beds": 4,
+      "baths": 4.0,
+      "list_price": 1171171.4
+    },
+    {
+      "id": 461,
+      "street_address": "8146 Cedar Blvd",
+      "state": "MI",
+      "zip": "26610",
+      "sqft": 2336.52,
+      "beds": 4,
+      "baths": 2.5,
+      "list_price": 852717.36
+    },
+    {
+      "id": 462,
+      "street_address": "1404 Oak Rd",
+      "state": "FL",
+      "zip": "88520",
+      "sqft": 1401.9,
+      "beds": 6,
+      "baths": 3.6,
+      "list_price": 1382053.59
+    },
+    {
+      "id": 463,
+      "street_address": "8430 Maple Ln",
+      "state": "OH",
+      "zip": "63912",
+      "sqft": 4655.14,
+      "beds": 1,
+      "baths": 3.8,
+      "list_price": 504898.67
+    },
+    {
+      "id": 464,
+      "street_address": "527 Cedar Blvd",
+      "state": "FL",
+      "zip": "11709",
+      "sqft": 3070.0,
+      "beds": 3,
+      "baths": 4.5,
+      "list_price": 1934052.71
+    },
+    {
+      "id": 465,
+      "street_address": "2610 Pine Blvd",
+      "state": "MI",
+      "zip": "88341",
+      "sqft": 2374.38,
+      "beds": 3,
+      "baths": 3.8,
+      "list_price": 1153780.81
+    },
+    {
+      "id": 466,
+      "street_address": "877 Maple Rd",
+      "state": "NC",
+      "zip": "79398",
+      "sqft": 3666.97,
+      "beds": 4,
+      "baths": 2.3,
+      "list_price": 1360944.66
+    },
+    {
+      "id": 467,
+      "street_address": "9281 Maple Ln",
+      "state": "FL",
+      "zip": "85395",
+      "sqft": 3911.34,
+      "beds": 6,
+      "baths": 4.3,
+      "list_price": 1340866.76
+    },
+    {
+      "id": 468,
+      "street_address": "4314 Cedar Blvd",
+      "state": "CA",
+      "zip": "40911",
+      "sqft": 3136.83,
+      "beds": 1,
+      "baths": 4.9,
+      "list_price": 1345331.35
+    },
+    {
+      "id": 469,
+      "street_address": "2967 Cedar Rd",
+      "state": "NC",
+      "zip": "95754",
+      "sqft": 3438.16,
+      "beds": 6,
+      "baths": 5.0,
+      "list_price": 377099.17
+    },
+    {
+      "id": 470,
+      "street_address": "2142 Oak Rd",
+      "state": "PA",
+      "zip": "11988",
+      "sqft": 3341.1,
+      "beds": 5,
+      "baths": 4.0,
+      "list_price": 560368.22
+    },
+    {
+      "id": 471,
+      "street_address": "375 Oak Blvd",
+      "state": "MI",
+      "zip": "77729",
+      "sqft": 4522.43,
+      "beds": 2,
+      "baths": 4.5,
+      "list_price": 512016.58
+    },
+    {
+      "id": 472,
+      "street_address": "4247 Pine Blvd",
+      "state": "PA",
+      "zip": "40571",
+      "sqft": 3505.93,
+      "beds": 6,
+      "baths": 4.6,
+      "list_price": 1481700.16
+    },
+    {
+      "id": 473,
+      "street_address": "6168 Maple St",
+      "state": "CA",
+      "zip": "87665",
+      "sqft": 3327.84,
+      "beds": 4,
+      "baths": 1.5,
+      "list_price": 1201550.87
+    },
+    {
+      "id": 474,
+      "street_address": "9582 Pine Rd",
+      "state": "IL",
+      "zip": "70210",
+      "sqft": 580.09,
+      "beds": 6,
+      "baths": 4.3,
+      "list_price": 1958846.47
+    },
+    {
+      "id": 475,
+      "street_address": "4698 Maple St",
+      "state": "GA",
+      "zip": "91573",
+      "sqft": 3188.37,
+      "beds": 1,
+      "baths": 2.0,
+      "list_price": 1443011.06
+    },
+    {
+      "id": 476,
+      "street_address": "1668 Cedar Ln",
+      "state": "TX",
+      "zip": "16657",
+      "sqft": 736.29,
+      "beds": 4,
+      "baths": 1.4,
+      "list_price": 571752.7
+    },
+    {
+      "id": 477,
+      "street_address": "6717 Maple Rd",
+      "state": "NC",
+      "zip": "37018",
+      "sqft": 3497.43,
+      "beds": 6,
+      "baths": 3.3,
+      "list_price": 625575.4
+    },
+    {
+      "id": 478,
+      "street_address": "9879 Main Rd",
+      "state": "NY",
+      "zip": "65429",
+      "sqft": 2394.82,
+      "beds": 2,
+      "baths": 2.0,
+      "list_price": 1380392.25
+    },
+    {
+      "id": 479,
+      "street_address": "6754 Pine Blvd",
+      "state": "NC",
+      "zip": "45923",
+      "sqft": 2424.86,
+      "beds": 1,
+      "baths": 2.9,
+      "list_price": 416267.7
+    },
+    {
+      "id": 480,
+      "street_address": "1332 Oak St",
+      "state": "NY",
+      "zip": "79452",
+      "sqft": 4484.72,
+      "beds": 6,
+      "baths": 2.5,
+      "list_price": 233141.18
+    },
+    {
+      "id": 481,
+      "street_address": "3849 Main Rd",
+      "state": "CA",
+      "zip": "76965",
+      "sqft": 4443.12,
+      "beds": 3,
+      "baths": 1.3,
+      "list_price": 1989251.41
+    },
+    {
+      "id": 482,
+      "street_address": "4512 Pine St",
+      "state": "FL",
+      "zip": "92227",
+      "sqft": 2744.66,
+      "beds": 5,
+      "baths": 4.3,
+      "list_price": 1669893.0
+    },
+    {
+      "id": 483,
+      "street_address": "2734 Pine Ln",
+      "state": "IL",
+      "zip": "88774",
+      "sqft": 992.74,
+      "beds": 5,
+      "baths": 3.8,
+      "list_price": 340318.78
+    },
+    {
+      "id": 484,
+      "street_address": "4300 Main Ln",
+      "state": "TX",
+      "zip": "13359",
+      "sqft": 1861.73,
+      "beds": 3,
+      "baths": 1.9,
+      "list_price": 404425.52
+    },
+    {
+      "id": 485,
+      "street_address": "8045 Maple Ln",
+      "state": "OH",
+      "zip": "12602",
+      "sqft": 2832.71,
+      "beds": 2,
+      "baths": 2.9,
+      "list_price": 210363.84
+    },
+    {
+      "id": 486,
+      "street_address": "671 Main Blvd",
+      "state": "CA",
+      "zip": "59113",
+      "sqft": 3176.09,
+      "beds": 1,
+      "baths": 3.7,
+      "list_price": 934400.18
+    },
+    {
+      "id": 487,
+      "street_address": "5954 Pine Ave",
+      "state": "OH",
+      "zip": "50594",
+      "sqft": 2303.35,
+      "beds": 3,
+      "baths": 4.5,
+      "list_price": 1511226.41
+    },
+    {
+      "id": 488,
+      "street_address": "4913 Cedar St",
+      "state": "PA",
+      "zip": "52821",
+      "sqft": 3432.35,
+      "beds": 2,
+      "baths": 1.2,
+      "list_price": 953790.82
+    },
+    {
+      "id": 489,
+      "street_address": "2897 Pine Ln",
+      "state": "PA",
+      "zip": "18019",
+      "sqft": 4053.11,
+      "beds": 6,
+      "baths": 4.8,
+      "list_price": 472347.39
+    },
+    {
+      "id": 490,
+      "street_address": "8666 Pine St",
+      "state": "PA",
+      "zip": "55899",
+      "sqft": 4477.4,
+      "beds": 1,
+      "baths": 1.5,
+      "list_price": 1151309.64
+    },
+    {
+      "id": 491,
+      "street_address": "1278 Main St",
+      "state": "GA",
+      "zip": "70045",
+      "sqft": 2877.3,
+      "beds": 3,
+      "baths": 4.9,
+      "list_price": 1700243.7
+    },
+    {
+      "id": 492,
+      "street_address": "9344 Pine Rd",
+      "state": "CA",
+      "zip": "75266",
+      "sqft": 2675.58,
+      "beds": 6,
+      "baths": 3.7,
+      "list_price": 296106.12
+    },
+    {
+      "id": 493,
+      "street_address": "537 Main St",
+      "state": "CA",
+      "zip": "81593",
+      "sqft": 1921.45,
+      "beds": 3,
+      "baths": 4.2,
+      "list_price": 1096233.13
+    },
+    {
+      "id": 494,
+      "street_address": "2207 Maple Rd",
+      "state": "MI",
+      "zip": "49699",
+      "sqft": 3316.7,
+      "beds": 2,
+      "baths": 3.2,
+      "list_price": 1464877.86
+    },
+    {
+      "id": 495,
+      "street_address": "3252 Oak Ln",
+      "state": "NY",
+      "zip": "72707",
+      "sqft": 2240.67,
+      "beds": 2,
+      "baths": 4.6,
+      "list_price": 550122.34
+    },
+    {
+      "id": 496,
+      "street_address": "3098 Pine Ave",
+      "state": "TX",
+      "zip": "88223",
+      "sqft": 4895.03,
+      "beds": 5,
+      "baths": 4.9,
+      "list_price": 1540402.51
+    },
+    {
+      "id": 497,
+      "street_address": "3981 Maple Ave",
+      "state": "NY",
+      "zip": "31089",
+      "sqft": 3000.91,
+      "beds": 3,
+      "baths": 3.8,
+      "list_price": 101513.89
+    },
+    {
+      "id": 498,
+      "street_address": "1562 Main Ln",
+      "state": "PA",
+      "zip": "23848",
+      "sqft": 4839.92,
+      "beds": 6,
+      "baths": 2.4,
+      "list_price": 1909961.14
+    },
+    {
+      "id": 499,
+      "street_address": "931 Pine St",
+      "state": "CA",
+      "zip": "76539",
+      "sqft": 2929.23,
+      "beds": 4,
+      "baths": 3.3,
+      "list_price": 1464456.83
+    },
+    {
+      "id": 500,
+      "street_address": "715 Pine Rd",
+      "state": "GA",
+      "zip": "20319",
+      "sqft": 924.36,
+      "beds": 1,
+      "baths": 1.3,
+      "list_price": 1767902.22
+    }
+  ],
+  "userHomes": [
+    {
+      "userId": 5,
+      "homeId": 236
+    },
+    {
+      "userId": 2,
+      "homeId": 338
+    },
+    {
+      "userId": 9,
+      "homeId": 234
+    },
+    {
+      "userId": 7,
+      "homeId": 35
+    },
+    {
+      "userId": 4,
+      "homeId": 375
+    },
+    {
+      "userId": 8,
+      "homeId": 9
+    },
+    {
+      "userId": 8,
+      "homeId": 247
+    },
+    {
+      "userId": 2,
+      "homeId": 176
+    },
+    {
+      "userId": 4,
+      "homeId": 384
+    },
+    {
+      "userId": 10,
+      "homeId": 189
+    },
+    {
+      "userId": 2,
+      "homeId": 185
+    },
+    {
+      "userId": 8,
+      "homeId": 265
+    },
+    {
+      "userId": 6,
+      "homeId": 57
+    },
+    {
+      "userId": 2,
+      "homeId": 194
+    },
+    {
+      "userId": 6,
+      "homeId": 66
+    },
+    {
+      "userId": 2,
+      "homeId": 441
+    },
+    {
+      "userId": 3,
+      "homeId": 406
+    },
+    {
+      "userId": 6,
+      "homeId": 75
+    },
+    {
+      "userId": 3,
+      "homeId": 415
+    },
+    {
+      "userId": 4,
+      "homeId": 2
+    },
+    {
+      "userId": 3,
+      "homeId": 424
+    },
+    {
+      "userId": 9,
+      "homeId": 355
+    },
+    {
+      "userId": 8,
+      "homeId": 121
+    },
+    {
+      "userId": 2,
+      "homeId": 288
+    },
+    {
+      "userId": 7,
+      "homeId": 403
+    },
+    {
+      "userId": 2,
+      "homeId": 59
+    },
+    {
+      "userId": 4,
+      "homeId": 87
+    },
+    {
+      "userId": 6,
+      "homeId": 169
+    },
+    {
+      "userId": 4,
+      "homeId": 96
+    },
+    {
+      "userId": 1,
+      "homeId": 499
+    },
+    {
+      "userId": 9,
+      "homeId": 211
+    },
+    {
+      "userId": 6,
+      "homeId": 196
+    },
+    {
+      "userId": 4,
+      "homeId": 370
+    },
+    {
+      "userId": 6,
+      "homeId": 452
+    },
+    {
+      "userId": 5,
+      "homeId": 60
+    },
+    {
+      "userId": 8,
+      "homeId": 4
+    },
+    {
+      "userId": 1,
+      "homeId": 346
+    },
+    {
+      "userId": 9,
+      "homeId": 58
+    },
+    {
+      "userId": 10,
+      "homeId": 184
+    },
+    {
+      "userId": 9,
+      "homeId": 67
+    },
+    {
+      "userId": 5,
+      "homeId": 78
+    },
+    {
+      "userId": 2,
+      "homeId": 180
+    },
+    {
+      "userId": 10,
+      "homeId": 193
+    },
+    {
+      "userId": 5,
+      "homeId": 96
+    },
+    {
+      "userId": 6,
+      "homeId": 61
+    },
+    {
+      "userId": 10,
+      "homeId": 22
+    },
+    {
+      "userId": 3,
+      "homeId": 172
+    },
+    {
+      "userId": 1,
+      "homeId": 220
+    },
+    {
+      "userId": 10,
+      "homeId": 296
+    },
+    {
+      "userId": 5,
+      "homeId": 190
+    },
+    {
+      "userId": 3,
+      "homeId": 257
+    },
+    {
+      "userId": 10,
+      "homeId": 305
+    },
+    {
+      "userId": 7,
+      "homeId": 407
+    },
+    {
+      "userId": 9,
+      "homeId": 188
+    },
+    {
+      "userId": 3,
+      "homeId": 266
+    },
+    {
+      "userId": 3,
+      "homeId": 275
+    },
+    {
+      "userId": 9,
+      "homeId": 206
+    },
+    {
+      "userId": 2,
+      "homeId": 319
+    },
+    {
+      "userId": 5,
+      "homeId": 455
+    },
+    {
+      "userId": 9,
+      "homeId": 215
+    },
+    {
+      "userId": 3,
+      "homeId": 293
+    },
+    {
+      "userId": 5,
+      "homeId": 464
+    },
+    {
+      "userId": 7,
+      "homeId": 263
+    },
+    {
+      "userId": 1,
+      "homeId": 341
+    },
+    {
+      "userId": 8,
+      "homeId": 237
+    },
+    {
+      "userId": 8,
+      "homeId": 484
+    },
+    {
+      "userId": 10,
+      "homeId": 426
+    },
+    {
+      "userId": 6,
+      "homeId": 47
+    },
+    {
+      "userId": 5,
+      "homeId": 320
+    },
+    {
+      "userId": 10,
+      "homeId": 435
+    },
+    {
+      "userId": 10,
+      "homeId": 8
+    },
+    {
+      "userId": 6,
+      "homeId": 294
+    },
+    {
+      "userId": 2,
+      "homeId": 13
+    },
+    {
+      "userId": 6,
+      "homeId": 321
+    },
+    {
+      "userId": 7,
+      "homeId": 375
+    },
+    {
+      "userId": 10,
+      "homeId": 44
+    },
+    {
+      "userId": 8,
+      "homeId": 111
+    },
+    {
+      "userId": 5,
+      "homeId": 176
+    },
+    {
+      "userId": 2,
+      "homeId": 49
+    },
+    {
+      "userId": 7,
+      "homeId": 393
+    },
+    {
+      "userId": 5,
+      "homeId": 185
+    },
+    {
+      "userId": 6,
+      "homeId": 159
+    },
+    {
+      "userId": 3,
+      "homeId": 261
+    },
+    {
+      "userId": 4,
+      "homeId": 86
+    },
+    {
+      "userId": 6,
+      "homeId": 168
+    },
+    {
+      "userId": 7,
+      "homeId": 231
+    },
+    {
+      "userId": 6,
+      "homeId": 415
+    },
+    {
+      "userId": 7,
+      "homeId": 2
+    },
+    {
+      "userId": 8,
+      "homeId": 205
+    },
+    {
+      "userId": 7,
+      "homeId": 11
+    },
+    {
+      "userId": 9,
+      "homeId": 457
+    },
+    {
+      "userId": 7,
+      "homeId": 249
+    },
+    {
+      "userId": 5,
+      "homeId": 468
+    },
+    {
+      "userId": 6,
+      "homeId": 433
+    },
+    {
+      "userId": 10,
+      "homeId": 156
+    },
+    {
+      "userId": 3,
+      "homeId": 117
+    },
+    {
+      "userId": 4,
+      "homeId": 369
+    },
+    {
+      "userId": 8,
+      "homeId": 232
+    },
+    {
+      "userId": 6,
+      "homeId": 451
+    },
+    {
+      "userId": 2,
+      "homeId": 399
+    },
+    {
+      "userId": 10,
+      "homeId": 412
+    },
+    {
+      "userId": 2,
+      "homeId": 170
+    },
+    {
+      "userId": 8,
+      "homeId": 479
+    },
+    {
+      "userId": 1,
+      "homeId": 354
+    },
+    {
+      "userId": 3,
+      "homeId": 373
+    },
+    {
+      "userId": 2,
+      "homeId": 408
+    },
+    {
+      "userId": 6,
+      "homeId": 42
+    },
+    {
+      "userId": 3,
+      "homeId": 382
+    },
+    {
+      "userId": 4,
+      "homeId": 207
+    },
+    {
+      "userId": 2,
+      "homeId": 435
+    },
+    {
+      "userId": 7,
+      "homeId": 123
+    },
+    {
+      "userId": 7,
+      "homeId": 370
+    },
+    {
+      "userId": 4,
+      "homeId": 72
+    },
+    {
+      "userId": 4,
+      "homeId": 81
+    },
+    {
+      "userId": 6,
+      "homeId": 172
+    },
+    {
+      "userId": 1,
+      "homeId": 304
+    },
+    {
+      "userId": 5,
+      "homeId": 454
+    },
+    {
+      "userId": 6,
+      "homeId": 419
+    },
+    {
+      "userId": 2,
+      "homeId": 129
+    },
+    {
+      "userId": 7,
+      "homeId": 244
+    },
+    {
+      "userId": 3,
+      "homeId": 103
+    },
+    {
+      "userId": 1,
+      "homeId": 322
+    },
+    {
+      "userId": 7,
+      "homeId": 253
+    },
+    {
+      "userId": 5,
+      "homeId": 45
+    },
+    {
+      "userId": 2,
+      "homeId": 385
+    },
+    {
+      "userId": 3,
+      "homeId": 121
+    },
+    {
+      "userId": 9,
+      "homeId": 52
+    },
+    {
+      "userId": 1,
+      "homeId": 340
+    },
+    {
+      "userId": 8,
+      "homeId": 465
+    },
+    {
+      "userId": 3,
+      "homeId": 130
+    },
+    {
+      "userId": 3,
+      "homeId": 377
+    },
+    {
+      "userId": 6,
+      "homeId": 284
+    },
+    {
+      "userId": 2,
+      "homeId": 421
+    },
+    {
+      "userId": 1,
+      "homeId": 178
+    },
+    {
+      "userId": 5,
+      "homeId": 328
+    },
+    {
+      "userId": 2,
+      "homeId": 3
+    },
+    {
+      "userId": 3,
+      "homeId": 395
+    },
+    {
+      "userId": 8,
+      "homeId": 83
+    },
+    {
+      "userId": 10,
+      "homeId": 25
+    },
+    {
+      "userId": 2,
+      "homeId": 250
+    },
+    {
+      "userId": 7,
+      "homeId": 127
+    },
+    {
+      "userId": 1,
+      "homeId": 443
+    },
+    {
+      "userId": 9,
+      "homeId": 155
+    },
+    {
+      "userId": 4,
+      "homeId": 485
+    },
+    {
+      "userId": 3,
+      "homeId": 4
+    },
+    {
+      "userId": 3,
+      "homeId": 242
+    },
+    {
+      "userId": 4,
+      "homeId": 76
+    },
+    {
+      "userId": 6,
+      "homeId": 158
+    },
+    {
+      "userId": 4,
+      "homeId": 314
+    },
+    {
+      "userId": 9,
+      "homeId": 429
+    },
+    {
+      "userId": 4,
+      "homeId": 85
+    },
+    {
+      "userId": 4,
+      "homeId": 323
+    },
+    {
+      "userId": 9,
+      "homeId": 438
+    },
+    {
+      "userId": 5,
+      "homeId": 22
+    },
+    {
+      "userId": 10,
+      "homeId": 375
+    },
+    {
+      "userId": 8,
+      "homeId": 213
+    },
+    {
+      "userId": 7,
+      "homeId": 495
+    },
+    {
+      "userId": 5,
+      "homeId": 287
+    },
+    {
+      "userId": 3,
+      "homeId": 116
+    },
+    {
+      "userId": 9,
+      "homeId": 285
+    },
+    {
+      "userId": 10,
+      "homeId": 411
+    },
+    {
+      "userId": 7,
+      "homeId": 86
+    },
+    {
+      "userId": 6,
+      "homeId": 32
+    },
+    {
+      "userId": 7,
+      "homeId": 342
+    },
+    {
+      "userId": 8,
+      "homeId": 78
+    },
+    {
+      "userId": 7,
+      "homeId": 351
+    },
+    {
+      "userId": 8,
+      "homeId": 316
+    },
+    {
+      "userId": 1,
+      "homeId": 191
+    },
+    {
+      "userId": 8,
+      "homeId": 87
+    },
+    {
+      "userId": 1,
+      "homeId": 429
+    },
+    {
+      "userId": 4,
+      "homeId": 462
+    },
+    {
+      "userId": 1,
+      "homeId": 200
+    },
+    {
+      "userId": 5,
+      "homeId": 152
+    },
+    {
+      "userId": 8,
+      "homeId": 334
+    },
+    {
+      "userId": 6,
+      "homeId": 126
+    },
+    {
+      "userId": 10,
+      "homeId": 276
+    },
+    {
+      "userId": 5,
+      "homeId": 170
+    },
+    {
+      "userId": 4,
+      "homeId": 62
+    },
+    {
+      "userId": 7,
+      "homeId": 198
+    },
+    {
+      "userId": 3,
+      "homeId": 246
+    },
+    {
+      "userId": 4,
+      "homeId": 71
+    },
+    {
+      "userId": 2,
+      "homeId": 110
+    },
+    {
+      "userId": 7,
+      "homeId": 225
+    },
+    {
+      "userId": 1,
+      "homeId": 303
+    },
+    {
+      "userId": 10,
+      "homeId": 370
+    },
+    {
+      "userId": 1,
+      "homeId": 312
+    },
+    {
+      "userId": 9,
+      "homeId": 262
+    },
+    {
+      "userId": 8,
+      "homeId": 208
+    },
+    {
+      "userId": 2,
+      "homeId": 384
+    },
+    {
+      "userId": 3,
+      "homeId": 349
+    },
+    {
+      "userId": 10,
+      "homeId": 397
+    },
+    {
+      "userId": 8,
+      "homeId": 464
+    },
+    {
+      "userId": 5,
+      "homeId": 300
+    },
+    {
+      "userId": 5,
+      "homeId": 309
+    },
+    {
+      "userId": 1,
+      "homeId": 415
+    },
+    {
+      "userId": 10,
+      "homeId": 253
+    },
+    {
+      "userId": 10,
+      "homeId": 491
+    },
+    {
+      "userId": 10,
+      "homeId": 500
+    },
+    {
+      "userId": 2,
+      "homeId": 267
+    },
+    {
+      "userId": 1,
+      "homeId": 451
+    },
+    {
+      "userId": 5,
+      "homeId": 174
+    },
+    {
+      "userId": 4,
+      "homeId": 295
+    },
+    {
+      "userId": 9,
+      "homeId": 419
+    },
+    {
+      "userId": 8,
+      "homeId": 176
+    },
+    {
+      "userId": 5,
+      "homeId": 3
+    },
+    {
+      "userId": 7,
+      "homeId": 449
+    },
+    {
+      "userId": 2,
+      "homeId": 114
+    },
+    {
+      "userId": 2,
+      "homeId": 132
+    },
+    {
+      "userId": 3,
+      "homeId": 335
+    },
+    {
+      "userId": 10,
+      "homeId": 383
+    },
+    {
+      "userId": 7,
+      "homeId": 67
+    },
+    {
+      "userId": 5,
+      "homeId": 295
+    },
+    {
+      "userId": 8,
+      "homeId": 468
+    },
+    {
+      "userId": 6,
+      "homeId": 498
+    },
+    {
+      "userId": 1,
+      "homeId": 163
+    },
+    {
+      "userId": 8,
+      "homeId": 306
+    },
+    {
+      "userId": 7,
+      "homeId": 350
+    },
+    {
+      "userId": 8,
+      "homeId": 324
+    },
+    {
+      "userId": 4,
+      "homeId": 34
+    },
+    {
+      "userId": 3,
+      "homeId": 456
+    },
+    {
+      "userId": 4,
+      "homeId": 281
+    },
+    {
+      "userId": 1,
+      "homeId": 19
+    },
+    {
+      "userId": 2,
+      "homeId": 500
+    },
+    {
+      "userId": 3,
+      "homeId": 236
+    },
+    {
+      "userId": 5,
+      "homeId": 407
+    },
+    {
+      "userId": 9,
+      "homeId": 405
+    },
+    {
+      "userId": 1,
+      "homeId": 266
+    },
+    {
+      "userId": 2,
+      "homeId": 91
+    },
+    {
+      "userId": 7,
+      "homeId": 206
+    },
+    {
+      "userId": 3,
+      "homeId": 65
+    },
+    {
+      "userId": 5,
+      "homeId": 7
+    },
+    {
+      "userId": 9,
+      "homeId": 261
+    },
+    {
+      "userId": 3,
+      "homeId": 101
+    },
+    {
+      "userId": 1,
+      "homeId": 131
+    },
+    {
+      "userId": 6,
+      "homeId": 246
+    },
+    {
+      "userId": 4,
+      "homeId": 173
+    },
+    {
+      "userId": 8,
+      "homeId": 36
+    },
+    {
+      "userId": 2,
+      "homeId": 221
+    },
+    {
+      "userId": 5,
+      "homeId": 128
+    },
+    {
+      "userId": 5,
+      "homeId": 146
+    },
+    {
+      "userId": 6,
+      "homeId": 358
+    },
+    {
+      "userId": 1,
+      "homeId": 252
+    },
+    {
+      "userId": 5,
+      "homeId": 402
+    },
+    {
+      "userId": 7,
+      "homeId": 192
+    },
+    {
+      "userId": 1,
+      "homeId": 270
+    },
+    {
+      "userId": 8,
+      "homeId": 166
+    },
+    {
+      "userId": 10,
+      "homeId": 108
+    },
+    {
+      "userId": 10,
+      "homeId": 346
+    },
+    {
+      "userId": 7,
+      "homeId": 448
+    },
+    {
+      "userId": 2,
+      "homeId": 342
+    },
+    {
+      "userId": 10,
+      "homeId": 355
+    },
+    {
+      "userId": 10,
+      "homeId": 364
+    },
+    {
+      "userId": 8,
+      "homeId": 431
+    },
+    {
+      "userId": 4,
+      "homeId": 141
+    },
+    {
+      "userId": 5,
+      "homeId": 496
+    },
+    {
+      "userId": 7,
+      "homeId": 48
+    },
+    {
+      "userId": 7,
+      "homeId": 304
+    },
+    {
+      "userId": 2,
+      "homeId": 216
+    },
+    {
+      "userId": 4,
+      "homeId": 6
+    },
+    {
+      "userId": 4,
+      "homeId": 433
+    },
+    {
+      "userId": 5,
+      "homeId": 370
+    },
+    {
+      "userId": 1,
+      "homeId": 9
+    },
+    {
+      "userId": 3,
+      "homeId": 455
+    },
+    {
+      "userId": 4,
+      "homeId": 280
+    },
+    {
+      "userId": 4,
+      "homeId": 289
+    },
+    {
+      "userId": 6,
+      "homeId": 380
+    },
+    {
+      "userId": 1,
+      "homeId": 274
+    },
+    {
+      "userId": 1,
+      "homeId": 283
+    },
+    {
+      "userId": 9,
+      "homeId": 233
+    },
+    {
+      "userId": 3,
+      "homeId": 311
+    },
+    {
+      "userId": 8,
+      "homeId": 426
+    },
+    {
+      "userId": 5,
+      "homeId": 253
+    },
+    {
+      "userId": 5,
+      "homeId": 491
+    },
+    {
+      "userId": 8,
+      "homeId": 435
+    },
+    {
+      "userId": 6,
+      "homeId": 227
+    },
+    {
+      "userId": 4,
+      "homeId": 383
+    },
+    {
+      "userId": 3,
+      "homeId": 338
+    },
+    {
+      "userId": 7,
+      "homeId": 299
+    },
+    {
+      "userId": 5,
+      "homeId": 100
+    },
+    {
+      "userId": 1,
+      "homeId": 148
+    },
+    {
+      "userId": 8,
+      "homeId": 44
+    },
+    {
+      "userId": 10,
+      "homeId": 224
+    },
+    {
+      "userId": 3,
+      "homeId": 185
+    },
+    {
+      "userId": 9,
+      "homeId": 354
+    },
+    {
+      "userId": 4,
+      "homeId": 10
+    },
+    {
+      "userId": 3,
+      "homeId": 194
+    },
+    {
+      "userId": 3,
+      "homeId": 432
+    },
+    {
+      "userId": 6,
+      "homeId": 101
+    },
+    {
+      "userId": 6,
+      "homeId": 339
+    },
+    {
+      "userId": 4,
+      "homeId": 28
+    },
+    {
+      "userId": 1,
+      "homeId": 233
+    },
+    {
+      "userId": 7,
+      "homeId": 173
+    },
+    {
+      "userId": 10,
+      "homeId": 318
+    },
+    {
+      "userId": 10,
+      "homeId": 89
+    },
+    {
+      "userId": 7,
+      "homeId": 191
+    },
+    {
+      "userId": 7,
+      "homeId": 429
+    },
+    {
+      "userId": 3,
+      "homeId": 297
+    },
+    {
+      "userId": 9,
+      "homeId": 466
+    },
+    {
+      "userId": 2,
+      "homeId": 341
+    },
+    {
+      "userId": 9,
+      "homeId": 237
+    },
+    {
+      "userId": 9,
+      "homeId": 475
+    },
+    {
+      "userId": 7,
+      "homeId": 276
+    },
+    {
+      "userId": 3,
+      "homeId": 333
+    },
+    {
+      "userId": 10,
+      "homeId": 192
+    },
+    {
+      "userId": 2,
+      "homeId": 188
+    },
+    {
+      "userId": 9,
+      "homeId": 84
+    },
+    {
+      "userId": 8,
+      "homeId": 268
+    },
+    {
+      "userId": 1,
+      "homeId": 381
+    },
+    {
+      "userId": 6,
+      "homeId": 496
+    },
+    {
+      "userId": 10,
+      "homeId": 219
+    },
+    {
+      "userId": 2,
+      "homeId": 444
+    },
+    {
+      "userId": 8,
+      "homeId": 286
+    },
+    {
+      "userId": 6,
+      "homeId": 325
+    },
+    {
+      "userId": 10,
+      "homeId": 475
+    },
+    {
+      "userId": 6,
+      "homeId": 96
+    },
+    {
+      "userId": 6,
+      "homeId": 334
+    },
+    {
+      "userId": 7,
+      "homeId": 159
+    },
+    {
+      "userId": 8,
+      "homeId": 133
+    },
+    {
+      "userId": 2,
+      "homeId": 62
+    },
+    {
+      "userId": 10,
+      "homeId": 304
+    },
+    {
+      "userId": 10,
+      "homeId": 84
+    },
+    {
+      "userId": 2,
+      "homeId": 80
+    },
+    {
+      "userId": 8,
+      "homeId": 389
+    },
+    {
+      "userId": 5,
+      "homeId": 216
+    },
+    {
+      "userId": 3,
+      "homeId": 283
+    },
+    {
+      "userId": 9,
+      "homeId": 214
+    },
+    {
+      "userId": 3,
+      "homeId": 54
+    },
+    {
+      "userId": 4,
+      "homeId": 108
+    },
+    {
+      "userId": 9,
+      "homeId": 223
+    },
+    {
+      "userId": 2,
+      "homeId": 345
+    },
+    {
+      "userId": 10,
+      "homeId": 178
+    },
+    {
+      "userId": 7,
+      "homeId": 280
+    },
+    {
+      "userId": 10,
+      "homeId": 187
+    },
+    {
+      "userId": 9,
+      "homeId": 497
+    },
+    {
+      "userId": 8,
+      "homeId": 254
+    },
+    {
+      "userId": 10,
+      "homeId": 425
+    },
+    {
+      "userId": 1,
+      "homeId": 367
+    },
+    {
+      "userId": 5,
+      "homeId": 99
+    },
+    {
+      "userId": 6,
+      "homeId": 64
+    },
+    {
+      "userId": 5,
+      "homeId": 108
+    },
+    {
+      "userId": 3,
+      "homeId": 175
+    },
+    {
+      "userId": 3,
+      "homeId": 413
+    },
+    {
+      "userId": 9,
+      "homeId": 344
+    },
+    {
+      "userId": 4,
+      "homeId": 238
+    },
+    {
+      "userId": 3,
+      "homeId": 422
+    },
+    {
+      "userId": 9,
+      "homeId": 353
+    },
+    {
+      "userId": 7,
+      "homeId": 145
+    },
+    {
+      "userId": 8,
+      "homeId": 110
+    },
+    {
+      "userId": 5,
+      "homeId": 364
+    },
+    {
+      "userId": 3,
+      "homeId": 431
+    },
+    {
+      "userId": 4,
+      "homeId": 256
+    },
+    {
+      "userId": 8,
+      "homeId": 119
+    },
+    {
+      "userId": 10,
+      "homeId": 290
+    },
+    {
+      "userId": 4,
+      "homeId": 494
+    },
+    {
+      "userId": 8,
+      "homeId": 366
+    },
+    {
+      "userId": 2,
+      "homeId": 295
+    },
+    {
+      "userId": 2,
+      "homeId": 66
+    },
+    {
+      "userId": 8,
+      "homeId": 375
+    },
+    {
+      "userId": 10,
+      "homeId": 317
+    },
+    {
+      "userId": 2,
+      "homeId": 75
+    },
+    {
+      "userId": 3,
+      "homeId": 40
+    },
+    {
+      "userId": 5,
+      "homeId": 211
+    },
+    {
+      "userId": 9,
+      "homeId": 447
+    },
+    {
+      "userId": 3,
+      "homeId": 305
+    },
+    {
+      "userId": 6,
+      "homeId": 212
+    },
+    {
+      "userId": 5,
+      "homeId": 485
+    },
+    {
+      "userId": 8,
+      "homeId": 2
+    },
+    {
+      "userId": 9,
+      "homeId": 483
+    },
+    {
+      "userId": 7,
+      "homeId": 275
+    },
+    {
+      "userId": 10,
+      "homeId": 182
+    },
+    {
+      "userId": 7,
+      "homeId": 293
+    },
+    {
+      "userId": 6,
+      "homeId": 50
+    },
+    {
+      "userId": 3,
+      "homeId": 152
+    },
+    {
+      "userId": 8,
+      "homeId": 267
+    },
+    {
+      "userId": 2,
+      "homeId": 434
+    },
+    {
+      "userId": 1,
+      "homeId": 380
+    },
+    {
+      "userId": 10,
+      "homeId": 20
+    },
+    {
+      "userId": 7,
+      "homeId": 122
+    },
+    {
+      "userId": 3,
+      "homeId": 170
+    },
+    {
+      "userId": 7,
+      "homeId": 131
+    },
+    {
+      "userId": 3,
+      "homeId": 179
+    },
+    {
+      "userId": 7,
+      "homeId": 140
+    },
+    {
+      "userId": 4,
+      "homeId": 480
+    },
+    {
+      "userId": 7,
+      "homeId": 387
+    },
+    {
+      "userId": 7,
+      "homeId": 158
+    },
+    {
+      "userId": 1,
+      "homeId": 474
+    },
+    {
+      "userId": 3,
+      "homeId": 264
+    },
+    {
+      "userId": 3,
+      "homeId": 35
+    },
+    {
+      "userId": 3,
+      "homeId": 273
+    },
+    {
+      "userId": 9,
+      "homeId": 204
+    },
+    {
+      "userId": 7,
+      "homeId": 5
+    },
+    {
+      "userId": 6,
+      "homeId": 427
+    },
+    {
+      "userId": 9,
+      "homeId": 460
+    },
+    {
+      "userId": 1,
+      "homeId": 92
+    },
+    {
+      "userId": 7,
+      "homeId": 23
+    },
+    {
+      "userId": 4,
+      "homeId": 363
+    },
+    {
+      "userId": 1,
+      "homeId": 101
+    },
+    {
+      "userId": 9,
+      "homeId": 478
+    },
+    {
+      "userId": 8,
+      "homeId": 235
+    },
+    {
+      "userId": 3,
+      "homeId": 129
+    },
+    {
+      "userId": 1,
+      "homeId": 348
+    },
+    {
+      "userId": 4,
+      "homeId": 381
+    },
+    {
+      "userId": 10,
+      "homeId": 424
+    },
+    {
+      "userId": 6,
+      "homeId": 45
+    },
+    {
+      "userId": 8,
+      "homeId": 491
+    },
+    {
+      "userId": 9,
+      "homeId": 78
+    },
+    {
+      "userId": 3,
+      "homeId": 385
+    },
+    {
+      "userId": 6,
+      "homeId": 292
+    },
+    {
+      "userId": 7,
+      "homeId": 117
+    },
+    {
+      "userId": 9,
+      "homeId": 334
+    },
+    {
+      "userId": 7,
+      "homeId": 126
+    },
+    {
+      "userId": 3,
+      "homeId": 412
+    },
+    {
+      "userId": 6,
+      "homeId": 319
+    },
+    {
+      "userId": 3,
+      "homeId": 30
+    },
+    {
+      "userId": 9,
+      "homeId": 437
+    },
+    {
+      "userId": 5,
+      "homeId": 448
+    },
+    {
+      "userId": 6,
+      "homeId": 184
+    },
+    {
+      "userId": 6,
+      "homeId": 193
+    },
+    {
+      "userId": 6,
+      "homeId": 431
+    },
+    {
+      "userId": 1,
+      "homeId": 87
+    },
+    {
+      "userId": 1,
+      "homeId": 325
+    },
+    {
+      "userId": 7,
+      "homeId": 256
+    },
+    {
+      "userId": 7,
+      "homeId": 274
+    },
+    {
+      "userId": 2,
+      "homeId": 406
+    },
+    {
+      "userId": 9,
+      "homeId": 73
+    },
+    {
+      "userId": 3,
+      "homeId": 389
+    },
+    {
+      "userId": 2,
+      "homeId": 6
+    },
+    {
+      "userId": 8,
+      "homeId": 95
+    },
+    {
+      "userId": 7,
+      "homeId": 377
+    },
+    {
+      "userId": 10,
+      "homeId": 284
+    },
+    {
+      "userId": 2,
+      "homeId": 42
+    },
+    {
+      "userId": 3,
+      "homeId": 245
+    },
+    {
+      "userId": 5,
+      "homeId": 187
+    },
+    {
+      "userId": 2,
+      "homeId": 289
+    },
+    {
+      "userId": 5,
+      "homeId": 434
+    },
+    {
+      "userId": 1,
+      "homeId": 73
+    },
+    {
+      "userId": 9,
+      "homeId": 32
+    },
+    {
+      "userId": 10,
+      "homeId": 387
+    },
+    {
+      "userId": 2,
+      "homeId": 392
+    },
+    {
+      "userId": 6,
+      "homeId": 26
+    },
+    {
+      "userId": 2,
+      "homeId": 163
+    },
+    {
+      "userId": 9,
+      "homeId": 297
+    },
+    {
+      "userId": 7,
+      "homeId": 89
+    },
+    {
+      "userId": 6,
+      "homeId": 282
+    },
+    {
+      "userId": 10,
+      "homeId": 5
+    },
+    {
+      "userId": 9,
+      "homeId": 324
+    },
+    {
+      "userId": 8,
+      "homeId": 81
+    },
+    {
+      "userId": 2,
+      "homeId": 257
+    },
+    {
+      "userId": 8,
+      "homeId": 99
+    },
+    {
+      "userId": 10,
+      "homeId": 270
+    },
+    {
+      "userId": 9,
+      "homeId": 153
+    },
+    {
+      "userId": 1,
+      "homeId": 450
+    },
+    {
+      "userId": 8,
+      "homeId": 364
+    },
+    {
+      "userId": 4,
+      "homeId": 74
+    },
+    {
+      "userId": 6,
+      "homeId": 394
+    },
+    {
+      "userId": 5,
+      "homeId": 456
+    },
+    {
+      "userId": 6,
+      "homeId": 421
+    },
+    {
+      "userId": 8,
+      "homeId": 211
+    },
+    {
+      "userId": 3,
+      "homeId": 105
+    },
+    {
+      "userId": 5,
+      "homeId": 285
+    },
+    {
+      "userId": 5,
+      "homeId": 56
+    },
+    {
+      "userId": 2,
+      "homeId": 158
+    },
+    {
+      "userId": 6,
+      "homeId": 21
+    },
+    {
+      "userId": 10,
+      "homeId": 409
+    },
+    {
+      "userId": 9,
+      "homeId": 292
+    },
+    {
+      "userId": 8,
+      "homeId": 476
+    },
+    {
+      "userId": 2,
+      "homeId": 405
+    },
+    {
+      "userId": 3,
+      "homeId": 379
+    },
+    {
+      "userId": 9,
+      "homeId": 310
+    },
+    {
+      "userId": 2,
+      "homeId": 252
+    },
+    {
+      "userId": 1,
+      "homeId": 198
+    },
+    {
+      "userId": 8,
+      "homeId": 94
+    },
+    {
+      "userId": 5,
+      "homeId": 159
+    },
+    {
+      "userId": 4,
+      "homeId": 469
+    },
+    {
+      "userId": 8,
+      "homeId": 341
+    },
+    {
+      "userId": 2,
+      "homeId": 279
+    },
+    {
+      "userId": 3,
+      "homeId": 244
+    },
+    {
+      "userId": 9,
+      "homeId": 413
+    },
+    {
+      "userId": 4,
+      "homeId": 307
+    },
+    {
+      "userId": 9,
+      "homeId": 422
+    },
+    {
+      "userId": 2,
+      "homeId": 108
+    },
+    {
+      "userId": 7,
+      "homeId": 241
+    },
+    {
+      "userId": 10,
+      "homeId": 377
+    },
+    {
+      "userId": 7,
+      "homeId": 479
+    },
+    {
+      "userId": 10,
+      "homeId": 148
+    },
+    {
+      "userId": 5,
+      "homeId": 298
+    },
+    {
+      "userId": 8,
+      "homeId": 480
+    },
+    {
+      "userId": 9,
+      "homeId": 305
+    },
+    {
+      "userId": 3,
+      "homeId": 383
+    },
+    {
+      "userId": 7,
+      "homeId": 344
+    },
+    {
+      "userId": 1,
+      "homeId": 422
+    },
+    {
+      "userId": 8,
+      "homeId": 318
+    },
+    {
+      "userId": 4,
+      "homeId": 455
+    },
+    {
+      "userId": 5,
+      "homeId": 154
+    },
+    {
+      "userId": 2,
+      "homeId": 256
+    },
+    {
+      "userId": 10,
+      "homeId": 498
+    },
+    {
+      "userId": 1,
+      "homeId": 449
+    },
+    {
+      "userId": 2,
+      "homeId": 274
+    },
+    {
+      "userId": 5,
+      "homeId": 410
+    },
+    {
+      "userId": 6,
+      "homeId": 146
+    },
+    {
+      "userId": 4,
+      "homeId": 302
+    },
+    {
+      "userId": 6,
+      "homeId": 384
+    },
+    {
+      "userId": 9,
+      "homeId": 417
+    },
+    {
+      "userId": 6,
+      "homeId": 155
+    },
+    {
+      "userId": 8,
+      "homeId": 174
+    },
+    {
+      "userId": 2,
+      "homeId": 112
+    },
+    {
+      "userId": 7,
+      "homeId": 465
+    },
+    {
+      "userId": 3,
+      "homeId": 86
+    },
+    {
+      "userId": 9,
+      "homeId": 17
+    },
+    {
+      "userId": 8,
+      "homeId": 439
+    },
+    {
+      "userId": 1,
+      "homeId": 314
+    },
+    {
+      "userId": 9,
+      "homeId": 264
+    },
+    {
+      "userId": 8,
+      "homeId": 210
+    },
+    {
+      "userId": 3,
+      "homeId": 104
+    },
+    {
+      "userId": 6,
+      "homeId": 240
+    },
+    {
+      "userId": 9,
+      "homeId": 35
+    },
+    {
+      "userId": 3,
+      "homeId": 342
+    },
+    {
+      "userId": 7,
+      "homeId": 483
+    },
+    {
+      "userId": 8,
+      "homeId": 457
+    },
+    {
+      "userId": 9,
+      "homeId": 282
+    },
+    {
+      "userId": 7,
+      "homeId": 83
+    },
+    {
+      "userId": 1,
+      "homeId": 417
+    },
+    {
+      "userId": 2,
+      "homeId": 4
+    },
+    {
+      "userId": 5,
+      "homeId": 387
+    },
+    {
+      "userId": 1,
+      "homeId": 8
+    },
+    {
+      "userId": 9,
+      "homeId": 385
+    },
+    {
+      "userId": 3,
+      "homeId": 234
+    },
+    {
+      "userId": 9,
+      "homeId": 403
+    },
+    {
+      "userId": 6,
+      "homeId": 379
+    },
+    {
+      "userId": 2,
+      "homeId": 89
+    },
+    {
+      "userId": 7,
+      "homeId": 204
+    },
+    {
+      "userId": 3,
+      "homeId": 499
+    },
+    {
+      "userId": 7,
+      "homeId": 222
+    },
+    {
+      "userId": 10,
+      "homeId": 358
+    },
+    {
+      "userId": 9,
+      "homeId": 250
+    },
+    {
+      "userId": 8,
+      "homeId": 443
+    },
+    {
+      "userId": 6,
+      "homeId": 235
+    },
+    {
+      "userId": 3,
+      "homeId": 337
+    },
+    {
+      "userId": 10,
+      "homeId": 385
+    },
+    {
+      "userId": 4,
+      "homeId": 409
+    },
+    {
+      "userId": 8,
+      "homeId": 43
+    },
+    {
+      "userId": 9,
+      "homeId": 106
+    },
+    {
+      "userId": 5,
+      "homeId": 117
+    },
+    {
+      "userId": 10,
+      "homeId": 470
+    },
+    {
+      "userId": 7,
+      "homeId": 343
+    },
+    {
+      "userId": 4,
+      "homeId": 445
+    },
+    {
+      "userId": 5,
+      "homeId": 135
+    },
+    {
+      "userId": 10,
+      "homeId": 488
+    },
+    {
+      "userId": 4,
+      "homeId": 36
+    },
+    {
+      "userId": 6,
+      "homeId": 118
+    },
+    {
+      "userId": 6,
+      "homeId": 127
+    },
+    {
+      "userId": 4,
+      "homeId": 283
+    },
+    {
+      "userId": 1,
+      "homeId": 30
+    },
+    {
+      "userId": 7,
+      "homeId": 199
+    },
+    {
+      "userId": 4,
+      "homeId": 301
+    },
+    {
+      "userId": 2,
+      "homeId": 93
+    },
+    {
+      "userId": 5,
+      "homeId": 418
+    },
+    {
+      "userId": 10,
+      "homeId": 344
+    },
+    {
+      "userId": 7,
+      "homeId": 455
+    },
+    {
+      "userId": 4,
+      "homeId": 139
+    },
+    {
+      "userId": 2,
+      "homeId": 358
+    },
+    {
+      "userId": 6,
+      "homeId": 221
+    },
+    {
+      "userId": 10,
+      "homeId": 371
+    },
+    {
+      "userId": 3,
+      "homeId": 341
+    },
+    {
+      "userId": 10,
+      "homeId": 200
+    },
+    {
+      "userId": 3,
+      "homeId": 350
+    },
+    {
+      "userId": 7,
+      "homeId": 311
+    },
+    {
+      "userId": 6,
+      "homeId": 495
+    },
+    {
+      "userId": 2,
+      "homeId": 470
+    },
+    {
+      "userId": 9,
+      "homeId": 137
+    },
+    {
+      "userId": 5,
+      "homeId": 148
+    },
+    {
+      "userId": 6,
+      "homeId": 113
+    },
+    {
+      "userId": 4,
+      "homeId": 31
+    },
+    {
+      "userId": 1,
+      "homeId": 16
+    },
+    {
+      "userId": 3,
+      "homeId": 471
+    },
+    {
+      "userId": 3,
+      "homeId": 480
+    },
+    {
+      "userId": 7,
+      "homeId": 203
+    },
+    {
+      "userId": 8,
+      "homeId": 177
+    },
+    {
+      "userId": 3,
+      "homeId": 71
+    },
+    {
+      "userId": 3,
+      "homeId": 80
+    },
+    {
+      "userId": 7,
+      "homeId": 41
+    },
+    {
+      "userId": 9,
+      "homeId": 487
+    },
+    {
+      "userId": 2,
+      "homeId": 362
+    },
+    {
+      "userId": 3,
+      "homeId": 89
+    },
+    {
+      "userId": 8,
+      "homeId": 442
+    },
+    {
+      "userId": 4,
+      "homeId": 408
+    },
+    {
+      "userId": 9,
+      "homeId": 96
+    },
+    {
+      "userId": 1,
+      "homeId": 384
+    },
+    {
+      "userId": 5,
+      "homeId": 107
+    },
+    {
+      "userId": 10,
+      "homeId": 451
+    },
+    {
+      "userId": 1,
+      "homeId": 393
+    },
+    {
+      "userId": 7,
+      "homeId": 324
+    },
+    {
+      "userId": 4,
+      "homeId": 8
+    },
+    {
+      "userId": 3,
+      "homeId": 430
+    },
+    {
+      "userId": 8,
+      "homeId": 307
+    },
+    {
+      "userId": 7,
+      "homeId": 153
+    },
+    {
+      "userId": 2,
+      "homeId": 236
+    },
+    {
+      "userId": 5,
+      "homeId": 372
+    },
+    {
+      "userId": 10,
+      "homeId": 60
+    },
+    {
+      "userId": 4,
+      "homeId": 26
+    },
+    {
+      "userId": 7,
+      "homeId": 171
+    },
+    {
+      "userId": 1,
+      "homeId": 258
+    },
+    {
+      "userId": 6,
+      "homeId": 373
+    },
+    {
+      "userId": 3,
+      "homeId": 57
+    },
+    {
+      "userId": 7,
+      "homeId": 445
+    },
+    {
+      "userId": 5,
+      "homeId": 484
+    },
+    {
+      "userId": 3,
+      "homeId": 313
+    },
+    {
+      "userId": 5,
+      "homeId": 255
+    },
+    {
+      "userId": 4,
+      "homeId": 138
+    },
+    {
+      "userId": 9,
+      "homeId": 482
+    },
+    {
+      "userId": 6,
+      "homeId": 458
+    },
+    {
+      "userId": 8,
+      "homeId": 1
+    },
+    {
+      "userId": 8,
+      "homeId": 10
+    },
+    {
+      "userId": 7,
+      "homeId": 292
+    },
+    {
+      "userId": 4,
+      "homeId": 394
+    },
+    {
+      "userId": 9,
+      "homeId": 82
+    },
+    {
+      "userId": 1,
+      "homeId": 141
+    },
+    {
+      "userId": 4,
+      "homeId": 412
+    },
+    {
+      "userId": 8,
+      "homeId": 275
+    },
+    {
+      "userId": 3,
+      "homeId": 178
+    },
+    {
+      "userId": 9,
+      "homeId": 347
+    },
+    {
+      "userId": 2,
+      "homeId": 222
+    },
+    {
+      "userId": 3,
+      "homeId": 187
+    },
+    {
+      "userId": 10,
+      "homeId": 473
+    },
+    {
+      "userId": 7,
+      "homeId": 157
+    },
+    {
+      "userId": 4,
+      "homeId": 259
+    },
+    {
+      "userId": 2,
+      "homeId": 478
+    },
+    {
+      "userId": 7,
+      "homeId": 166
+    },
+    {
+      "userId": 2,
+      "homeId": 487
+    },
+    {
+      "userId": 2,
+      "homeId": 60
+    },
+    {
+      "userId": 1,
+      "homeId": 244
+    },
+    {
+      "userId": 7,
+      "homeId": 175
+    },
+    {
+      "userId": 1,
+      "homeId": 6
+    },
+    {
+      "userId": 6,
+      "homeId": 359
+    },
+    {
+      "userId": 7,
+      "homeId": 422
+    },
+    {
+      "userId": 5,
+      "homeId": 214
+    },
+    {
+      "userId": 1,
+      "homeId": 262
+    },
+    {
+      "userId": 2,
+      "homeId": 87
+    },
+    {
+      "userId": 2,
+      "homeId": 325
+    },
+    {
+      "userId": 9,
+      "homeId": 230
+    },
+    {
+      "userId": 10,
+      "homeId": 347
+    },
+    {
+      "userId": 6,
+      "homeId": 206
+    },
+    {
+      "userId": 5,
+      "homeId": 479
+    },
+    {
+      "userId": 5,
+      "homeId": 488
+    },
+    {
+      "userId": 4,
+      "homeId": 380
+    },
+    {
+      "userId": 4,
+      "homeId": 151
+    },
+    {
+      "userId": 7,
+      "homeId": 287
+    },
+    {
+      "userId": 5,
+      "homeId": 79
+    },
+    {
+      "userId": 1,
+      "homeId": 365
+    },
+    {
+      "userId": 8,
+      "homeId": 23
+    },
+    {
+      "userId": 5,
+      "homeId": 335
+    },
+    {
+      "userId": 5,
+      "homeId": 344
+    },
+    {
+      "userId": 3,
+      "homeId": 182
+    },
+    {
+      "userId": 5,
+      "homeId": 353
+    },
+    {
+      "userId": 6,
+      "homeId": 89
+    },
+    {
+      "userId": 3,
+      "homeId": 438
+    },
+    {
+      "userId": 1,
+      "homeId": 230
+    },
+    {
+      "userId": 10,
+      "homeId": 297
+    },
+    {
+      "userId": 6,
+      "homeId": 345
+    },
+    {
+      "userId": 10,
+      "homeId": 68
+    },
+    {
+      "userId": 10,
+      "homeId": 77
+    },
+    {
+      "userId": 8,
+      "homeId": 144
+    },
+    {
+      "userId": 8,
+      "homeId": 382
+    },
+    {
+      "userId": 7,
+      "homeId": 426
+    },
+    {
+      "userId": 6,
+      "homeId": 183
+    },
+    {
+      "userId": 10,
+      "homeId": 333
+    },
+    {
+      "userId": 7,
+      "homeId": 435
+    }
+  ]
+}

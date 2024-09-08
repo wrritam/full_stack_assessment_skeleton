@@ -1,3 +1,4 @@
+
 generator client {
   provider = "prisma-client-js"
 }
@@ -7,26 +8,33 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model home {
-  id             Int    @id @default(autoincrement())
+model User {
+  id       Int        @id @default(autoincrement())
+  username String     @unique
+  email    String     @unique
+  homes    UserHome[]
+}
+
+model Home {
+  id             Int        @id @default(autoincrement())
   street_address String
   state          String
   zip            String
   sqft           Float?
   beds           Int?
-  baths          Int?
+  baths          Float?
   list_price     Float?
-  userid        Int
-  user           user   @relation(fields: [userid], references: [id])
+  users          UserHome[]
 }
 
-model user {
-  id       Int    @id @default(autoincrement())
-  username String
-  email    String
-  homes    home[]
-}
+model UserHome {
+  user   User @relation(fields: [userId], references: [id])
+  userId Int
+  home   Home @relation(fields: [homeId], references: [id])
+  homeId Int
 
+  @@id([userId, homeId])
+}
 /// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
 model user_home {
   username       String? @db.VarChar(100)

@@ -1,7 +1,7 @@
 import express from "express";
 import prisma from "../db/db.config";
 
-//find all users: /user/find-all
+//FIND ALL USERS: /user/find-all
 
 export const findAll = async (req: express.Request, res: express.Response) => {
   try {
@@ -12,7 +12,29 @@ export const findAll = async (req: express.Request, res: express.Response) => {
   }
 };
 
-//find homes by user: /home/find-by-user/:userId
+//FIND HOMES BY USER: /home/find-by-user/:userId
+
+export const findByUser = async (
+  req: express.Request,
+  res: express.Response
+) => {
+  try {
+    const userId = req.params.userId;
+    const homes = await prisma.home.findMany({
+      where: {
+        userid: parseInt(userId),
+      },
+    });
+    if (homes.length === 0) {
+      return res.status(404).json({ message: "No homes found for this user" });
+    }
+    return res.json(homes);
+  } catch (error: any) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+/* ALTERNATE FOR DOCKER - MYSQL INSTANCE
 
 export const findByUser = async (
   req: express.Request,
@@ -35,9 +57,20 @@ export const findByUser = async (
     res.status(500).json({ message: error.message });
   }
 };
+*/
 
-// Find users by home: /user/find-by-home/:homeId
+// FIND USERS BY HOME: /user/find-by-home/:homeId
 
+export const findByHome = async (
+  req: express.Request,
+  res: express.Response
+) => {
+  try {
+    
+  }
+};
+
+/* ALTERNATE FOR DOCKER - MYSQL INSTANCE
 export const findByHome = async (
   req: express.Request,
   res: express.Response
@@ -59,6 +92,7 @@ export const findByHome = async (
     res.status(500).json({ message: error.message });
   }
 };
+*/
 
 // Update Users for a home: /home/update-users/:homeId
 export const updateUsers = async (
