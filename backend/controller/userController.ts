@@ -1,5 +1,6 @@
 import express from "express";
 import prisma from "../db/db.config";
+import { param, body, validationResult } from "express-validator";
 
 //FIND ALL USERS: /user/find-all
 
@@ -18,46 +19,35 @@ export const findByUser = async (
   req: express.Request,
   res: express.Response
 ) => {
+  const userId = req.params.userId;
+
   try {
-    const userId = req.params.userId;
-    const homes = await prisma.home.findMany({
+    const user = await prisma.user.findUnique({
       where: {
-        userid: parseInt(userId),
+        id: parseInt(userId),
+      },
+      include: {
+        homes: {
+          include: {
+            home: true,
+          },
+        },
       },
     });
-    if (homes.length === 0) {
-      return res.status(404).json({ message: "No homes found for this user" });
+
+    if (!user) {
+      res.status(404).json({ message: "User does not exist" });
     }
-    return res.json(homes);
+
+    const homes = user?.homes.map((userHome: any) => userHome.home);
+    if (homes?.length === 0) {
+      res.status(404).json({ message: "User has no homes" });
+    }
+    res.json(homes);
   } catch (error: any) {
     res.status(500).json({ message: error.message });
   }
 };
-
-/* ALTERNATE FOR DOCKER - MYSQL INSTANCE
-
-export const findByUser = async (
-  req: express.Request,
-  res: express.Response
-) => {
-  const userId = req.params.userId;
-  const homes = await prisma.home.findMany({
-    where: {
-      user_home_interest: {
-        some: { user_id: parseInt(userId) },
-      },
-    },
-    include: {
-      user_home_interest: true,
-    },
-  });
-  res.json(homes);
-  try {
-  } catch (error: any) {
-    res.status(500).json({ message: error.message });
-  }
-};
-*/
 
 // FIND USERS BY HOME: /user/find-by-home/:homeId
 
@@ -65,68 +55,97 @@ export const findByHome = async (
   req: express.Request,
   res: express.Response
 ) => {
-  try {
-    
-  }
-};
-
-/* ALTERNATE FOR DOCKER - MYSQL INSTANCE
-export const findByHome = async (
-  req: express.Request,
-  res: express.Response
-) => {
   const homeId = req.params.homeId;
-  const users = await prisma.user.findMany({
-    where: {
-      user_home_interest: {
-        some: { home_id: parseInt(homeId) },
-      },
-    },
-    include: {
-      user_home_interest: true,
-    },
-  });
-  res.json(users);
+
   try {
+    const home = await prisma.home.findUnique({
+      where: {
+        id: parseInt(homeId),
+      },
+      include: {
+        users: {
+          include: {
+            user: true,
+          },
+        },
+      },
+    });
+
+    if (!home) {
+      res.status(404).json({ message: "Home does not exist" });
+    }
+
+    const users = home?.users.map((userHome: any) => userHome.user);
+    if (users?.length === 0) {
+      res.status(404).json({ message: "Home has no users" });
+    }
+    res.json(users);
   } catch (error: any) {
     res.status(500).json({ message: error.message });
   }
 };
-*/
 
 // Update Users for a home: /home/update-users/:homeId
-export const updateUsers = async (
-  req: express.Request,
-  res: express.Response
-) => {
-  const { homeId } = req.params;
-  const { userIds } = req.body;
 
-  try {
-    // Take new input
-    const newHomeId = parseInt(homeId);
-    const newUserIds = userIds.map((id: number) => parseInt(id.toString()));
+export const updateUsers = [
+  param("homeId").isInt().toInt(),
+  body("userIds").isArray().withMessage("userIds must be an array"),
+  body("userIds.*").isInt().toInt(),
 
-    // Delete existing relationships for this home
+  async (req: express.Request, res: express.Response) => {
+    // Validate request
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
 
-    await prisma.user_home_interest.deleteMany({
-      where: {
-        home_id: newHomeId,
-      },
-    });
-    // Create new relationships
+    const homeId = req.params.homeId;
+    const { userIds } = req.body;
 
-    const userHomeInterests = newUserIds.map((userId: number) => ({
-      home_id: newHomeId,
-      user_id: userId,
-    }));
+    try {
+      // Check if the home exists
 
-    await prisma.user_home_interest.createMany({
-      data: userHomeInterests,
-    });
+      const home = await prisma.home.findUnique({
+        where: { id: parseInt(homeId) },
+      });
+      if (!home) {
+        return res.status(404).json({ error: "Home not found" });
+      }
 
-    res.json({ message: "Users updated for home" });
-  } catch (error: any) {
-    res.status(500).json({ message: error.message });
-  }
-};
+      // Verify all userIds exist
+
+      const users = await prisma.user.findMany({
+        where: { id: { in: userIds } },
+      });
+      if (users.length !== userIds.length) {
+        return res
+          .status(400)
+          .json({ error: "One or more user IDs are invalid" });
+      }
+
+      // Update the UserHome relationships
+
+      await prisma.$transaction(async (prisma) => {
+        // Remove all existing relationships for this home
+
+        await prisma.userHome.deleteMany({
+          where: { homeId: parseInt(homeId) },
+        });
+
+        // Create new relationships
+
+        await prisma.userHome.createMany({
+          data: userIds.map((userId: number) => ({
+            userId,
+            homeId: parseInt(homeId),
+          })),
+        });
+      });
+
+      res.json({ message: "Users updated successfully for the home" });
+    } catch (error) {
+      console.error("Error updating users for home:", error);
+      res.status(500).json({ error: "Internal server error" });
+    }
+  },
+];

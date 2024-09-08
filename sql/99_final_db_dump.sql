@@ -1,6 +1,6 @@
 USE home_db;
 
-DROP TABLE IF EXISTS `user_home_interest`;
+DROP TABLE IF EXISTS `userhome`;
 DROP TABLE IF EXISTS `home`;
 DROP TABLE IF EXISTS `user`;
 
@@ -23,8 +23,8 @@ CREATE TABLE IF NOT EXISTS `home` (
     `list_price` float NOT NULL
 );
 
--- Create the user_home_interest table to represent the many-to-many relationship
-CREATE TABLE IF NOT EXISTS `user_home_interest` (
+-- Create the UserHome table to represent the many-to-many relationship
+CREATE TABLE IF NOT EXISTS `userhome` (
     `id` INT(11) AUTO_INCREMENT PRIMARY KEY,
     `user_id` INT,
     `home_id` INT,
@@ -42,8 +42,8 @@ INSERT INTO `home` (street_address, state, zip, sqft, beds, baths, list_price)
 SELECT DISTINCT street_address, state, zip, sqft, beds, baths, list_price
 FROM user_home;
 
--- Populate the user_home_interest table
-INSERT INTO user_home_interest (user_id, home_id)
+-- Populate the userhome table
+INSERT INTO userhome (user_id, home_id)
 SELECT u.id, h.id
 FROM user_home uh
 JOIN `user` u ON uh.username = u.username
