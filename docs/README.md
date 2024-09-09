@@ -286,6 +286,8 @@ Thank you for your time and consideration.
     - Run the developement Server
        `npm run dev`
    - Deployed live link on vercel: https://full-stack-assessment-skeleton.vercel.app/
+     - Note: The backend link is deployed under render's free tier so it could take some time to cold start the server. Render's free instance will spin down with inactivity, which can delay requests by 50 seconds or more. This could delay the data retrieval from the backend server by a minute or two. That's why make sure the deployed backend link is showing `Service is live.`
+
    - Demo Video:
      
      [demovideo.webm](https://github.com/user-attachments/assets/99e69d12-ffac-4e32-b841-aaacf2182d35)
