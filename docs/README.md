@@ -1,3 +1,26 @@
+# A NOTE TO THE REVIEWER
+
+Hello,
+
+I received the full stack assignment on September 3rd, but due to health issues, I wasn't able to start working on it until September 5th. On that day, I created the `99_final_db_dump.sql` file under the `SQL` directory, and everything seemed to be working well. I successfully retrieved all data from the `user_home` table and then split this data into three tables: `user`, `home`, and `userhome`.
+
+I began working on the backend and implemented two APIs:
+1. Get all users
+2. Get homes by user ID
+
+Unfortunately, due to ongoing health issues, I couldn't finish the backend on September 5th. When I resumed work the next day, I encountered a new issue when running the Docker command. The database was inaccessible, and I couldn't populate the `user`, `home`, and `userhome` tables with data from the `user_home` table. The error I faced was:
+```bash
+home_db.user_home does not exist.
+```
+
+I spent several hours troubleshooting this issue but was unable to resolve it. Given the time lost due to my illness, I decided to move forward quickly by using a PostgreSQL instance from neon.tech. I designed the Prisma schema to match the `99_final_db_dump.sql` structure and wrote a Python script `generate_data.py` to generate dummy data. This data was stored in `user_home_data.json`. I then wrote a `seed.ts` file under the Prisma directory and seeded the data into the database.
+
+Once the backend was completed, I deployed it to Render. Afterwards, I worked on the front end, connected it to the APIs, and deployed it on Vercel.
+
+I kindly ask for your understanding regarding this minor inconvenience. Despite the initial delays, I was able to complete the assignment with the PostgreSQL neon.tech instance, and I am committed to resolving the docker issue I faced before.
+
+Thank you for your time and consideration. 
+
 # Introduction - how to read this doc
 
 - This exercise is designed to test basic skills in 3 core areas:
@@ -67,30 +90,6 @@ docker-compose -f docker-compose.initial.yml up --build -d
 
 - the database is `home_db`, user `db_user` has full read-write access to it
 - `home_db.user_home` table has some data populated in it
-
-## 0.5. A NOTE TO THE REVIEWER
-
-Hello,
-
-I received the full stack assignment on September 3rd, but due to health issues, I wasn't able to start working on it until September 5th. On that day, I created the `99_final_db_dump.sql` file under the `SQL` directory, and everything seemed to be working well. I successfully retrieved all data from the `user_home` table and then split this data into three tables: `user`, `home`, and `userhome`.
-
-I began working on the backend and implemented two APIs:
-1. Get all users
-2. Get homes by user ID
-
-Unfortunately, due to ongoing health issues, I couldn't finish the backend on September 5th. When I resumed work the next day, I encountered a new issue when running the Docker command. The database was inaccessible, and I couldn't populate the `user`, `home`, and `userhome` tables with data from the `user_home` table. The error I faced was:
-```bash
-home_db.user_home does not exist.
-```
-
-I spent several hours troubleshooting this issue but was unable to resolve it. Given the time lost due to my illness, I decided to move forward quickly by using a PostgreSQL instance from neon.tech. I designed the Prisma schema to match the `99_final_db_dump.sql` structure and wrote a Python script `generate_data.py` to generate dummy data. This data was stored in `user_home_data.json`. I then wrote a `seed.ts` file under the Prisma directory and seeded the data into the database.
-
-Once the backend was completed, I deployed it to Render. Afterwards, I worked on the front end, connected it to the APIs, and deployed it on Vercel.
-
-I kindly ask for your understanding regarding this minor inconvenience. Despite the initial delays, I was able to complete the assignment with the PostgreSQL neon.tech instance, and I am committed to resolving the docker issue I faced before.
-
-Thank you for your time and consideration. 
-
  
 ## 1. Database
 
